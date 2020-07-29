@@ -1,0 +1,26 @@
+agencies   Space Agencies
+nonprofit  Nonprofit Advocacy Groups
+moon       Moon and Lunar-focused
+mars       Mars-focused
+alliance   Alliances
+commercial Commercial Space
+art        Space Art
+asteroids  Asteroids
+forum      Discussion and Chat
+children   Links for/about Children
+history    Space History
+policy     Policy-making Bodies
+law        Space Law
+experience Space Experiences
+museum     Museums and Information Centers
+info       General Space Information
+news       Space News Sites
+blog       Blogs and Vlogs
+fans       Fan Sites
+hobby      Space-related Hobbies
+research   Research and Infrastructure
+cast       Podcasts and Vidcasts
+astronomy  Astronomy
+magazine   Magazines and Publications
+event      Events (IRL and Online)
+mining     Mining of Moon/Asteroids 

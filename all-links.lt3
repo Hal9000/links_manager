@@ -1,0 +1,1803 @@
+.mixin links_mgr
+
+.entry National Space Society
+link https://space.nss.org/
+cats nonprofit
+tags nonprofit membership
+score 90
+.end
+
+.entry Kepler Shipyards
+link https://www.keplershipyards.com/
+cats commercial
+tags  commercial
+score 90
+.end
+
+.entry Alliance for Space Development
+link https://allianceforspacedevelopment.org/
+cats nonprofit
+tags nonprofit membership alliance
+score 90
+.end
+
+.entry Space Solar Power Institute
+link https://solarsat.org
+cats research
+tags research
+score 50
+.end
+
+.entry CosmoQuest
+link https://cosmoquest.org
+cats cast
+tags cast 
+score 30
+.end
+
+.entry Space Development Network
+link https://DevelopSpace.info
+cats research commercial alliance
+tags TIMEOUT alliance
+score 40
+.end
+
+.entry 4Frontiers Corp
+link https://www.4frontierscorp.com/index.html
+cats research commercial
+tags research commercial
+score 80
+.end
+
+.entry American Astronomical Society
+link https://aas.org/
+cats astronomy
+tags astronomy membership
+score 30
+.end
+
+.entry Arch Mission
+link https://www.archmission.org/
+cats nonprofit
+tags nonprofit
+score 30
+.end
+
+.entry Asgardia
+link https://asgardia.space/en/
+cats nonprofit
+tags nonprofit membership
+score 80
+.end
+
+.entry Asteroid Analytics
+link https://www.asteroidanalytics.com/
+cats asteroids
+tags asteroids
+score 90
+.end
+
+.entry Astronomers Without Borders
+link https://astronomerswithoutborders.org/
+cats astronomy
+tags astronomy membership
+score 30
+.end
+
+.entry Astronomical Society of the Pacific
+link https://www.astrosociety.org
+cats astronomy
+tags astronomy membership
+score 30
+.end
+
+.entry B612 Foundation
+link https://b612foundation.org/
+cats asteroids nonprofit
+tags asteroids nonprofit
+score 80
+.end
+
+._entry Brown University Planetary Sciences Group
+link https://www.planetary.brown.edu/index.html
+cats general
+tags
+score 80
+.end
+
+.entry Caelus Partners
+link https://www.caeluspartners.com/
+cats commercial
+tags commercial
+score 20
+.end
+
+.entry Canadian Space Society
+link https://css.ca/
+cats nonprofit
+tags nonprofit canada membership
+score 90
+.end
+
+.entry Carl Sagan Institute
+link https://carlsaganinstitute.org
+cats research information
+tags BADCERT
+score 90
+.end
+
+.entry Chicago Society for Space Studies
+link https://www.chicagospace.org/
+cats nonprofit research
+tags nonprofit membership research
+score 80
+.end
+
+.entry Citizens in Space
+link https://www.citizensinspace.org/
+cats 
+tags BADCERT
+score 80
+.end
+
+. Join later
+
+.entry Coalition for Deep Space Exploration
+link https://exploredeepspace.com
+cats nonprofit
+tags nonprofit alliance
+score 90
+.end
+
+.entry Coalition to Save Manned Space
+link https://www.savemannedspace.com/
+cats general alliance nonprofit
+tags alliance nonprofit membership
+score 90
+.end
+
+.entry Commercial Spaceflight Federation
+link https://www.commercialspaceflight.org
+cats 
+tags BADCERT
+score 70
+.end
+
+.entry Denver Space Society
+link https://denverspacesociety.blogspot.com/
+cats blog
+tags INACTIVE
+score 40
+.end
+
+.entry Federation of Galaxy Explorers
+link https://www.galaxyexplorers.org
+cats nonprofit
+tags nonprofit membership
+score 50
+.end
+
+. Has links
+.entry Galaxy Forum
+link https://galaxyforum.org/about-us/
+cats forum information
+tags nonprofit
+score 50
+.end
+
+.entry Gateway Foundation
+link https://gatewayspaceport.com/
+cats nonprofit research
+tags nonprofit membership research
+score 80
+.end
+
+.entry HI-SEAS
+link https://hi-seas.org/
+cats research
+tags research
+score 60
+.end
+
+. Good for Handbook Frus Astro
+.entry Hobby Space
+link https://www.hobbyspace.com
+cats hobby art 
+tags hobby art 
+score 90
+.end
+
+.entry International Association of Astronomical Artists
+link https://iaaa.org/
+cats astronomy art 
+tags astronomy art membership
+score 70
+.end
+
+.entry Janet's Planet
+link https://janetsplanet.org/
+cats children education
+tags children education
+score 90
+.end
+
+. cool...
+.entry Kepler Space Institute
+link https://keplerspaceinstitute.com/
+cats education commercial
+tags education commercial membership
+score 90
+.end
+
+.entry Lifeboat Foundation
+link https://lifeboat.com/
+cats nonprofit
+tags nonprofit membership
+score 90
+.end
+
+.entry Living Universe Foundation
+link https://www.luf.org
+cats nonprofit
+tags nonprofit
+score 80
+.end
+
+.entry Messaging Extraterrestrial Intelligence
+link https://meti.org/
+cats 
+tags BADCERT
+score 40
+.end
+
+.entry Milwaukee Space Exploration Meetup
+link https://www.meetup.com/Milwaukee-Space-Exploration-Meetup/
+cats fans 
+tags fans meetup
+score 40
+.end
+
+.entry Minnesota Space Frontier Society
+link https://www.mnsfs.org/
+cats 
+tags BADCERT
+score 40
+.end
+
+.entry OASIS (Los Angeles NSS)
+link https://www.oasis-nss.org/wordpress/
+cats nonprofit
+tags nonprofit membership
+score 40
+.end
+
+.entry One Giant Leap Foundation
+link https://www.onegiantleapfoundation.org/
+cats nonprofit
+tags nonprofit
+score 60
+.end
+
+.entry Oregon L5 Society
+link https://www.oregonl5.org/
+cats nonprofit
+tags BADCERT nonprofit membership
+score 60
+.end
+
+
+. informative but hokey
+.entry Permanent
+link https://www.permanent.com
+cats research information
+tags research information
+score 50
+.end
+
+.entry Philadelphia Area Space Alliance
+link https://phillypasa.blogspot.com/
+cats blog
+tags blog
+score 30
+.end
+
+.entry Planet Four
+link https://www.planetfour.org/
+cats education research
+tags citizen_science education research
+score 40
+.end
+
+.entry Planetary Society
+link https://www.planetary.org
+cats nonprofit research
+tags nonprofit membership research
+score 90
+.end
+
+.entry Research Institute for Space Exploration
+link https://www.washington.edu/research/research-centers/research-institute-for-space-exploration-rise/
+cats education research
+tags education research
+score 90
+.end
+
+.entry Share Space Foundation
+link https://sharespace.org
+cats education nonprofit
+tags BADCERT
+score 90
+.end
+
+.entry Sheboygan Space Society
+link https://www.sheboyganspacesociety.org/
+cats general
+tags BADCERT
+score 40
+.end
+
+.entry Small Bodies Assessment Group
+link https://www.lpi.usra.edu/sbag/
+cats education asteroids research
+tags education asteroids research
+score 80
+.end
+
+. Important...
+.entry Space Development Foundation
+link https://www.spacedevelopmentfoundation.org
+cats nonprofit alliance
+tags nonprofit alliance
+score 90
+.end
+
+. ^ see above
+.entry Space Development Steering Committee
+link https://spacedevelopmentsteeringcommittee.org/
+cats nonprofit alliance
+tags nonprofit alliance
+score 90
+.end
+
+. Corporate membership - many resources!
+.entry Space Foundation
+link https://www.spacefoundation.org
+cats education commercial 
+tags education commercial membership
+score 90
+.end
+
+.entry Space Frontier Foundation
+link https://spacefrontier.org/
+cats nonprofit
+tags  nonprofit
+score 80
+.end
+
+._entry Space is More
+link https://www.spaceismore.com/
+cats 
+tags
+score 50
+.end
+
+.entry Space Renaissance International
+link https://spacerenaissance.space
+cats nonprofit 
+tags nonprofit membership europe
+score 50
+.end
+
+.entry Space Resources
+link https://spaceresources.public.lu/en.html
+cats research
+tags research
+score 60
+.end
+
+.entry Space Settlement Initiative
+link https://spacesettlement.org
+cats nonprofit
+tags nonprofit
+score 60
+.end
+
+.entry Space Studies Institute
+link https://ssi.org/
+cats research
+tags research
+score 80
+.end
+
+.entry St. Louis Space Frontier
+link https://stlouisspacefrontier.org/
+cats nonprofit
+tags nonprofit
+score 50
+.end
+
+.entry Tau Zero Foundation
+link https://tauzero.aero
+cats research
+tags research
+score 70
+.end
+
+.entry Tennessee Valley Interstellar Workshop
+link https://tviw.us/
+cats nonprofit
+tags nonprofit
+score 70
+.end
+
+.entry Tucson L5 Space Society
+link https://www.l5space.org/
+cats nonprofit
+tags nonprofit
+score 70
+.end
+
+._entry Urban Astronomer
+link https://www.urban-astronomer.com
+cats general
+tags
+score 30
+.end
+
+.entry Wake Forest Institute for Regenerative Medicine
+link https://school.wakehealth.edu/Research/Institutes-and-Centers/Wake-Forest-Institute-for-Regenerative-Medicine
+cats general
+tags
+score 20
+.end
+
+.entry Zoo Universe
+link https://www.zooniverse.org/
+cats research education
+tags citizen_science research education
+score 70
+.end
+
+.entry Altius Space Machines
+link https://www.altius-space.com/
+cats commercial
+tags commercial
+score 60
+.end
+
+.entry Astrobiology Magazine
+link https://www.astrobio.net
+cats education research magazine
+tags education research magazine
+score 70
+.end
+
+.entry Axiom Space
+link https://axiomspace.com/
+cats commercial
+tags commercial
+score 70
+.end
+
+.entry Bigelow Aerospace
+link https://bigelowaerospace.com/
+cats commercial
+tags commercial
+score 80
+.end
+
+.entry Blue Origin
+link https://www.blueorigin.com
+cats commercial
+tags commercial
+score 90
+.end
+
+.entry Bradford Space, Inc.
+link https://bradford-space.com/
+cats commercial
+tags commercial
+score 60
+.end
+
+.entry Cislunar Space Development Company
+link https://csdc.space
+cats commercial research
+tags commercial research
+score 70
+.end
+
+.entry Copenhagen Suborbitals
+link https://copenhagensuborbitals.com/
+cats commercial research
+tags commercial research europe
+score 80
+.end
+
+.entry Deep Space Industries
+link https://deepspaceindustries.com/
+cats commercial
+tags commercial
+score 80
+.end
+
+.entry Deep Space Systems
+link https://www.deepspacesystems.com/
+cats commercial
+tags commercial
+score 80
+.end
+
+.entry Final Frontier Design
+link https://www.finalfrontierdesign.com/
+cats commercial
+tags commercial
+score 70
+.end
+
+.entry Firefly
+link https://firefly.com/
+cats commercial
+tags commercial
+score 90
+.end
+
+._entry High Frontier
+link https://highfrontier.com/
+cats 
+tags
+score 0
+.end
+
+.entry Integrated Space Analytics
+link https://integratedspaceanalytics.com/cms/
+cats education research information
+tags education research information
+score 80
+.end
+
+.entry Intuitive Machines
+link https://www.intuitivemachines.com/
+cats commercial
+tags commercial
+score 80
+.end
+
+.entry Interorbital
+link https://www.interorbital.com/
+cats commercial
+tags commercial
+score 50
+.end
+
+.entry Launchspace Technologies Corporation
+link https://launchspacetechnologies.com/
+cats commercial
+tags commercial
+score 60
+.end
+
+.entry Made in Space
+link https://madeinspace.us
+cats commercial
+tags commercial
+score 70
+.end
+
+.entry Momentum Space
+link https://momentus.space/
+cats commercial
+tags commercial
+score 80
+.end
+
+.entry NewSpace Center
+link https://http://www.newspacecenter.com
+cats information
+tags information
+score 70
+.end
+
+.entry Paragon Space Development Corporation
+link https://www.paragonsdc.com/
+cats commercial
+tags commercial
+score 90
+.end
+
+.entry Planetary Resources
+link https://www.planetaryresources.com/
+cats commercial
+tags commercial
+score 80
+.end
+
+.entry Redworks
+link https://www.redworks3d.com/
+cats commercial
+tags commercial
+score 50
+.end
+
+.entry Room Space Journal
+link https://room.eu.com/
+cats general
+tags commercial
+score 40
+.end
+
+.entry Space Exploration Architecture
+link https://www.spacexarch.com/
+cats  commercial research
+tags commercial research
+score 80
+.end
+
+.entry Space Safety Magazine
+link https://www.spacesafetymagazine.com/
+cats magazine policy
+tags magazine policy
+score 70
+.end
+
+.entry SpaceWorks
+link https://www.spaceworks.aero/
+cats commercial
+tags commercial
+score 80
+.end
+
+.entry SpaceX
+link https://www.spacex.com
+cats commercial
+tags commercial
+score 90
+.end
+
+.entry TransAstra
+link https://www.transastracorp.com
+cats commercial
+tags commercial
+score 60
+.end
+
+.entry Virgin Orbit
+link https://virginorbit.com/
+cats commercial
+tags commercial
+score 80
+.end
+
+.entry Zero Gravity Solutions
+link https://www.zerogsi.com/
+cats commercial
+tags commercial
+score 50
+.end
+
+.entry American Astronautical Society
+link https://astronautical.org
+cats education research
+tags education research membership
+score 80
+.end
+
+.entry CesiumAstro
+link https://www.cesiumastro.com/
+cats commercial
+tags commercial
+score 0
+.end
+
+.entry Lunar Homestead
+link https://www.lunarhomestead.com
+cats moon
+tags moon lunar
+score 0
+.end
+
+.entry Moon Village Association
+link https://moonvillageassociation.org/
+cats moon
+tags moon lunar membership
+score 90
+.end
+
+.entry Moonwards
+link https://www.moonwards.com
+cats moon
+tags moon lunar
+score 70
+.end
+
+.entry Lunar Exploration Analysis Group
+link https://www.lpi.usra.edu/leag
+cats moon research education
+tags moon lunar research education
+score 90
+.end
+
+.entry Apollo 11 in Real Time
+link https://apolloinrealtime.org/11/
+cats moon history information education
+tags moon lunar history information education nasa
+score 80
+.end
+
+.entry Arch Mission Foundation
+link https://www.archmission.org/
+cats commercial history
+tags commercial history
+score 70
+.end
+
+.entry Association of Lunar and Planetary Observers
+link https://alpo-astronomy.org/
+cats moon
+tags moon lunar astronomy
+score 40
+.end
+
+.entry Canadian Lunar Research Network
+link https://clrn.uwo.ca/
+cats moon research
+tags moon lunar research
+score 70
+.end
+
+.entry Center for Lunar and Asteroid Surface Science
+link https://sciences.ucf.edu/class/
+cats moon asteroids research education
+tags moon lunar asteroids education
+score 80
+.end
+
+.entry Daily Moon Position
+link https://www.dailymoonposition.com/default.aspx
+cats moon information astronomy
+tags moon lunar information astronomy
+score 30
+.end
+
+.entry Earth Seed
+link https://earthseed.space/
+cats moon
+tags moon lunar
+score 40
+.end
+
+.entry For All Moonkind
+link https://www.forallmoonkind.org/
+cats moon
+tags moon lunar
+score 30
+.end
+
+.entry ISRU Info
+link https://isruinfo.com
+cats moon research information
+tags moon lunar research information
+score 80
+.end
+
+.entry Lunar and Planetary Institute – Lunar Science and Exploration
+link https://www.lpi.usra.edu
+cats moon research education
+tags moon lunar research education
+score 90
+.end
+
+.entry Lunar and Planetary Laboratory – University of Arizona
+link https://www.lpl.arizona.edu/
+cats moon research education
+tags moon lunar research education
+score 90
+.end
+
+.entry Lunar Colony Fund
+link https://lunarcolonyfund.org
+cats moon
+tags moon lunar
+score 40
+.end
+
+.entry Lunar Explorers Society
+link https://www.lunarexplorers.net/home
+cats moon
+tags moon lunar membership
+score 30
+.end
+
+.entry Lunar Research Institute
+link https://lunar-research-institute.org/about.asp
+cats moon research
+tags moon lunar research
+score 0
+.end
+
+.entry Lunares
+link https://lunares.space/
+cats moon
+tags moon lunar
+score 30
+.end
+
+.entry Moon Base Clavius
+link https://www.clavius.org
+cats moon
+tags moon lunar
+score 30
+.end
+
+.entry Moon Watch
+link https://astro.ukho.gov.uk/moonwatch/index.html
+cats moon
+tags moon lunar
+score 30
+.end
+
+.entry Planetary Science Institute
+link https://www.psi.edu/
+cats moon 
+tags moon lunar research education
+score 80
+.end
+
+.entry Selenian Boondocks
+link https://selenianboondocks.com/
+cats moon
+tags moon lunar
+score 30
+.end
+
+.entry Solar System Exploration Research Virtual Institute
+link https://lunarscience.arc.nasa.gov/
+cats moon research
+tags moon lunar nasa research
+score 90
+.end
+
+.entry Spudis Lunar Resources
+link https://www.spudislunarresources.com/
+cats moon research
+tags moon lunar research
+score 50
+.end
+
+.entry The Luna Project
+link https://www.lunarcc.org
+cats moon
+tags moon lunar
+score 40
+.end
+
+.entry Universities Space Research Association
+link https://www.usra.edu
+cats moon research education
+tags moon lunar research education
+score 80
+.end
+
+.entry Astrobotic
+link https://www.astrobotic.com
+cats moon
+tags moon lunar
+score 50
+.end
+
+.entry Draper
+link https://www.draper.com/
+cats moon
+tags moon lunar
+score 40
+.end
+
+.entry Intuitive Machines
+link https://www.intuitivemachines.com/
+cats moon
+tags moon lunar
+score 30
+.end
+
+.entry ISpace
+link https://ispace-inc.com/
+cats moon commercial
+tags moon lunar commercial
+score 30
+.end
+
+.entry Lunar Resources
+link https://lunarresources.space
+cats moon
+tags moon lunar
+score 30
+.end
+
+.entry Masten
+link https://www.masten.aero/
+cats moon research commercial
+tags moon lunar research commercial
+score 80
+.end
+
+.entry Moon Express
+link https://www.moonexpress.com
+cats moon
+tags moon lunar
+score 30
+.end
+
+.entry Off Planet Research
+link https://www.offplanetresearch.com
+cats moon research
+tags moon lunar research
+score 30
+.end
+
+.entry Orbit Beyond
+link https://www.orbitbeyond.com
+cats moon
+tags moon lunar
+score 30
+.end
+
+.entry PTScientists
+link https://ptscientists.com
+cats moon
+tags moon lunar
+score 30
+.end
+
+.entry Shackleton Energy
+link https://www.shackletonenergy.com
+cats moon commercial
+tags moon lunar commercial
+score 70
+.end
+
+.entry Space Angels
+link https://www.spaceangels.com
+cats moon 
+tags moon lunar
+score 60
+.end
+
+.entry SpaceIL
+link https://www.spaceil.com
+cats moon
+tags moon lunar
+score 30
+.end
+
+.entry Space Mining Technologies
+link https://space-mining.tech/
+cats moon research
+tags moon lunar research
+score 50
+.end
+
+.entry Moon Village Association
+link https://moonvillageassociation.org/
+cats moon
+tags moon lunar membership
+score 70
+.end
+
+.entry Lunar Exploration Analysis Group
+link https://www.lpi.usra.edu/leag
+cats moon research education
+tags moon lunar research education
+score 90
+.end
+
+.entry 4th Planet Logistics
+link https://www.4thplanetlogistics.com/
+cats moon
+tags moon lunar
+score 40
+.end
+
+.entry NASA Lunar Science Institute
+link https://https://sservi.nasa.gov/articles/nasa-lunar-science-institute/
+cats moon research
+tags moon lunar nasa usa research
+score 90
+.end
+
+.entry NASA Moon
+link https://www.nasa.gov/moon
+cats moon research
+tags moon lunar research nasa usa
+score 90
+.end
+
+.entry NASA Apollo
+link https://www.nasa.gov/mission_pages/apollo/index.html
+cats moon history
+tags moon lunar nasa history apollo
+score 80
+.end
+
+.entry Lunar Science for Landed Missions
+link https://https://lunar-landing.arc.nasa.gov/
+cats moon research
+tags moon lunar nasa research
+score 90
+.end
+
+.entry NASA ISRU
+link https://isru.nasa.gov/
+cats moon research
+tags moon lunar research nasa
+score 90
+.end
+
+.entry Dynamic Response of the Environments at Asteroids, the Moon, and the moons of Mars
+link https://ssed.gsfc.nasa.gov/dream/
+cats moon asteroids mars research
+tags moon lunar mars asteroids nasa research
+score 90
+.end
+
+.entry NASA Innovative Advanced Concepts
+link https://www.nasa.gov/directorates/spacetech/niac/index.html
+cats research
+tags nasa research usa
+score 90
+.end
+
+.entry NASA Robotic Mining Competition
+link https://www.nasa.gov/offices/educat moonion/centers/kennedy/technology/nasarmc.html
+cats moon asteroids research mining
+tags moon lunar asteroids research mining
+score 90
+.end
+
+.entry NASA Space Radiation Laboratory
+link https://www.bnl.gov/nsrl/
+cats research
+tags research nasa
+score 90
+.end
+
+.entry European Space Agency
+link https://www.esa.int/ESA
+cats agencie research
+tags agencies esa europe research
+score 90
+.end
+
+.entry ESA Lunar Exploration
+link https://lunarexploration.esa.int/
+cats moon research
+tags moon lunar research esa europe
+score 80
+.end
+
+.entry Roscosmos
+link https://en.roscosmos.ru/
+cats agencies research
+tags agencies research asia russia
+score 90
+.end
+
+.entry China National Space Administration
+link https://http://www.cnsa.gov.cn/
+cats agencies research
+tags agencies research china asia
+score 90
+.end
+
+.entry China Aerospace Science and Technology Corporation
+link https://english.spacechina.com/n16421/index.html
+cats research
+tags research china asia
+score 80
+.end
+
+.entry Japan Aerospace Exploration Agency
+link https://global.jaxa.jp/
+cats agencies research
+tags agencies research asia japan jaxa
+score 90
+.end
+
+.entry Indian Space Research Organization
+link https://www.isro.gov.in/
+cats agencies research
+tags agencies research asia india isro
+score 90
+.end
+
+.entry The American Lunar Society
+link https://www.amlunsoc.org
+cats moon 
+tags moon lunar membership usa
+score 80
+.end
+
+.entry Moon Base Clavius
+link https://www.clavius.org
+cats moon
+tags moon lunar
+score 40
+.end
+
+.entry Free Luna
+link https://freeluna.blogspot.com/
+cats moon blog
+tags moon lunar
+score 30
+.end
+
+.entry Lunar Domes Atlas GLR group
+link https://lunardomeatlas.blogspot.com/
+cats moon blog
+tags moon lunar blog
+score 30
+.end
+
+.entry Lunar Mission One
+link https://lunarmissionone.com/
+cats moon
+tags moon lunar
+score 40
+.end
+
+.entry The Luna Project
+link https://www.lunarcc.org/
+cats moon
+tags moon lunar
+score 30
+.end
+
+.entry Lunar Reclamation Society
+link https://lunar-reclamation.moonsociety.org
+cats moon
+tags moon lunar
+score 30
+.end
+
+._entry The Lunar Resource Company
+link
+cats moon mining
+tags moon lunar mining
+score 0
+.end
+
+.entry Lunar X-Prize
+link https://lunar.xprize.org/
+cats moon
+tags moon lunar
+score 40
+.end
+
+.entry The Moon Blog
+link https://themoonblog.com/
+cats moon blog
+tags moon lunar blog
+score 0
+.end
+
+.entry Moon Zoo
+link https://www.moonzoo.org/
+cats moon citizen_science research education information
+tags moon lunar citizen_science research education information
+score 60
+.end
+
+.entry Open Luna
+link https://openluna.org/
+cats moon
+tags moon lunar
+score 40
+.end
+
+._entry Space Future
+link https://www.spacefuture.com/
+cats moon
+tags moon lunar
+score 0
+.end
+
+.entry Trans Lunar Research
+link https://www.translunar.org
+cats moon research
+tags moon lunar research
+score 30
+.end
+
+.entry WayPaver Foundation
+link https://waypaverfoundation.org
+cats moon
+tags moon lunar
+score 30
+.end
+
+.entry The Mars Society
+link https://www.marssociety.org/
+cats mars research
+tags mars membership research
+score 80
+.end
+
+.entry The Mars Foundation
+link https://www.marsfoundation.org/
+cats mars nonprofit
+tags mars nonprofit
+score 80
+.end
+
+.entry Explore Mars
+link https://www.exploremars.org/
+cats mars nonprofit
+tags mars nonprofit
+score 80
+.end
+
+.entry Mars Institute
+link https://www.marsinstitute.no/
+cats mars research
+tags mars research
+score 80
+.end
+
+.entry Mars Nation
+link https://www.marsnation.io/
+cats mars
+tags mars
+score 60
+.end
+
+.entry Mars One
+link https://www.mars-one.com/
+cats mars commercial
+tags mars commercial
+score 50
+.end
+
+.entry Australian Space Agency
+link  https://www.industry.gov.au/strategies-for-the-future/australian-space-agency
+cats agencies 
+tags agencies australia oceania
+score 90
+.end
+
+._entry Belarus Space Agency
+link  
+cats agencies  research
+tags agencies belarus research
+score 0
+.end
+
+. (Asociación Centroamericana de Aeronáutica y el Espacio)
+.entry Central American Association for Aeronautics and Space 
+link  https://www.acae-ca.org/
+cats agencies  research
+tags agencies central_america research
+score 80
+.end
+
+. (Hrvatska Svemirska Agencija)
+._entry Croatian Space Agency 
+link  
+cats agencies 
+tags agencies croatia
+score 0
+.end
+
+.entry Mexican Space Agency
+link  http://www.aem.gob.mx/
+cats agencies  research
+tags agencies mexico north_america research
+score 90
+.end
+
+.entry Algerian Space Agency
+link  http://www.asal.dz/
+cats agencies  research
+tags agencies algeria research
+score 80
+.end
+
+._entry Asia-Pacific Space Cooperation Organization
+link  http://www.apsco.int/
+cats agencies  research
+tags agencies asia pacific research
+score 0
+.end
+
+.entry Austrian Space Agency
+link  http://www.ffg.at/
+cats agencies  research
+tags agencies austria europe research
+score 90
+.end
+
+._entry Azerbaijan National Aerospace Agency
+link  https://web.archive.org/web/20090922155709/http://www.science.az/en/amaka/agentlik/index.htm
+cats agencies 
+tags agencies azerbaijan
+score 0
+.end
+
+._entry National Space Science Agency
+link  
+cats agencies 
+tags agencies 
+score 80
+.end
+
+.entry Belgian Institute for Space Aeronomy
+link  http://www.aeronomie.be/
+cats agencies  research
+tags agencies belgium europe research
+score 0
+.end
+
+._entry Bolivarian Agency for Space Activities
+link  http://abae.gob.ve/
+cats agencies 
+tags agencies south_america
+score 80
+.end
+
+.entry Brazilian Space Agency
+link  http://www.aeb.gov.br/
+cats agencies research
+tags agencies south_america brazil research
+score 90
+.end
+
+._entry UK Space Agency
+link  
+cats agencies  research
+tags agencies europe uk research
+score 0
+.end
+
+.entry Bolivian Space Agency
+link  http://www.abe.bo/
+cats agencies research
+tags agencies south_america bolivia research
+score 90
+.end
+
+. http://www.stil.bas.bg/
+.entry Bulgarian Space Agency
+link  http://www.space.bas.bg/
+cats agencies  research
+tags agencies europe bulgaria research
+score 90
+.end
+
+.entry Canadian Space Agency
+link  http://www.asc-csa.gc.ca/eng/
+cats agencies  research
+tags agencies north_america canada research
+score 90
+.end
+
+._entry Colombian Space Commission
+link  https://web.archive.org/web/20120731122014/http://www.cce.gov.co/
+cats agencies 
+tags agencies south_america colombia
+score 0
+.end
+
+.entry Centre for Remote Imaging, Sensing and Processing	CRISP
+link  http://www.crisp.nus.edu.sg/
+cats agencies research
+tags agencies asia singapore research
+score 80
+.end
+
+.entry Consultative Committee for Space Data Systems	CCSDS	
+link  http://public.ccsds.org/
+cats agencies  research
+tags agencies  research
+score 80
+.end
+
+._entry Committee on Space Research	COSPAR	
+link  http://cosparhq.cnes.fr/
+cats agencies  research
+tags agencies  research
+score 0
+.end
+
+.entry Ministerstvo dopravy České republiky
+link  http://www.czechspaceportal.cz/
+cats agencies  research
+tags agencies europe czechia research
+score 90
+.end
+
+.entry Danish National Space Center	DRC
+link  http://www.spacecenter.dk/
+cats agencies  research
+tags agencies europe denmark research
+score 90
+.end
+
+.entry Geo-Informatics and Space Technology Development Agency
+link  http://www.gistda.or.th/
+cats agencies  research
+tags agencies asia thailand research
+score 80
+.end
+
+.entry Serbian Office for Space Sciences, Research and Development
+link  https://www.serbspace.rs/
+cats agencies  research
+tags agencies europe serbia research
+score 90
+.end
+
+.entry German Aerospace Center
+link  http://www.dlr.de/
+cats agencies research
+tags agencies europe germany research
+score 90
+.end
+
+.entry Hungarian Space Office
+link  http://www.hso.hu/
+cats agencies research
+tags agencies europe hungary research
+score 90
+.end
+
+.entry Ελληνικό Κέντρο Διαστήματος
+link  http://hsc.gov.gr/
+cats agencies research
+tags agencies europe greece research
+score 90
+.end
+
+.entry Instituto Nacional de Técnica Aeroespacial
+link  http://www.inta.es/
+cats agencies  research
+tags agencies  research
+score 90 europe spain
+.end
+
+.entry Iranian Space Agency
+link  http://www.isa.ir/
+cats agencies research
+tags agencies middle_east iran research
+score 90
+.end
+
+.entry Israeli Space Agency
+link  http://www.space.gov.il/
+cats agencies  research
+tags agencies middle_east israel research
+score 90
+.end
+
+._entry Italian Space Agency
+link  https://web.archive.org/web/20040612051317/http://www.asi.it/
+cats agencies 
+tags agencies europe italy
+score 0
+.end
+
+.entry Japan Aerospace Exploration Agency
+link  http://www.jaxa.jp/
+cats agencies  research
+tags agencies asia japan jaxa research
+score 90
+.end
+
+.entry Luxembourg Space Agency LSA
+link  https://space-agency.public.lu/en.html
+cats agencies  research
+tags agencies europe luxembourg research
+score 90
+.end
+
+.entry National Space Agency (KazCosmos)
+link  http://nffc.infospace.ru/inform/sri-kaz.htm
+cats agencies  research
+tags agencies  research asia 
+score 90
+.end
+
+._entry Kazakh Space Research Institute
+link  
+cats agencies 
+tags agencies kazakhstan
+score 0
+.end
+
+.entry New Zealand Space Agency
+link  http://www.mbie.govt.nz/info-services/sectors-industries/space/new-zealand-space-agency/
+cats agencies  research
+tags agencies new_zealand research
+score 0
+.end
+
+.entry Korea Aerospace Research Institute
+link  http://www.kari.kr/
+cats agencies 
+tags agencies asia south_korea
+score 90
+.end
+
+._entry Malaysian Space Agency
+link  https://web.archive.org/web/20071024151053/http://www.angkasa.gov.my/
+cats agencies 
+tags agencies asia malaysia
+score 0
+.end
+
+.entry National Aeronautics and Space Administration
+link  http://www.nasa.gov/
+cats agencies  research
+tags agencies nasa usa north_america research
+score 90
+.end
+
+.entry National Authority for Remote Sensing and Space Sciences
+link  http://www.narss.sci.eg/
+cats agencies   research
+tags agencies africa egypt research
+score 80
+.end
+
+.entry CNES
+link  http://www.cnes.fr/
+cats agencies  research
+tags agencies europe france research
+score 90
+.end
+
+. (Agencia Espacial de Paraguay)
+._entry Paraguayan Space Agency 
+link  
+cats agencies 
+tags agencies south_america paraguay
+score 0
+.end
+
+.entry National Commission for Aerospace Research and Development
+link  http://www.conida.gob.pe/
+cats agencies  research
+tags agencies south_america peru research
+score 90
+.end
+
+._entry Philippine Space Agency
+link  
+cats agencies 
+tags agencies pacific philippines
+score 0
+.end
+
+.entry Comisión Nacional de Investigaciones Espaciales
+link  http://www.conae.gov.ar/
+cats agencies  research
+tags agencies south_america argentina research
+score 90
+.end
+
+.entry Comisión Nacional de Actividades Espaciales
+link  http://www.conae.gov.ar/
+cats agencies  research
+tags agencies south_america argentina research
+score 90
+.end
+
+._entry National Institute of Aeronautics and Space
+link  https://web.archive.org/web/20110421183755/http://lapan.go.id/
+cats agencies 
+tags agencies 
+score 0
+.end
+
+.entry Centre national de la cartographie et de la télédétection
+link  http://www.cnct.defense.tn/
+cats agencies research
+tags agencies tunisia research
+score 0
+.end
+
+. (UzbekCosmos)
+._entry Uzbek State Space Research Agency 
+link  
+cats agencies 
+tags agencies 
+score 0
+.end
+
+.entry National Space Agency of Ukraine
+link  http://www.nkau.gov.ua/
+cats agencies  research
+tags agencies asia ukraine research
+score 90
+.end
+
+.entry National Space Organization
+link  http://www.nspo.org.tw/
+cats agencies  research
+tags agencies asia taiwan research
+score 90
+.end
+
+.entry National Space Research and Development Agency
+link  http://www.nasrda.gov.ng/
+cats agencies  research
+tags agencies  research africa nigeria
+score 90
+.end
+
+.entry Netherlands Institute for Space Research
+link  http://www.sron.nl/
+cats agencies  research
+tags agencies europe netherlands research
+score 90
+.end
+
+.entry Norwegian Space Centre
+link  http://www.spacecentre.no/
+cats agencies  research
+tags agencies europe norway research
+score 90
+.end
+
+.entry Pakistan Space and Upper Atmosphere Research Commission
+link  http://www.suparco.gov.pk/
+cats agencies  research
+tags agencies asia pakistan research
+score 90
+.end
+
+._entry Portugal Space
+link  
+cats agencies 
+tags agencies europe portugal
+score 0
+.end
+
+.entry Romanian Space Agency
+link  http://www.rosa.ro/
+cats agencies  research
+tags agencies europe romania research
+score 90
+.end
+
+._entry Egypt Remote Sensing Center (defunct)
+link  
+cats agencies 
+tags agencies 
+score 0
+.end
+
+.entry Centre Royal de Télédétection Spatiale
+link  http://www.crts.gov.ma/
+cats agencies  research
+tags agencies africa morocco research
+score 90
+.end
+
+._entry Russian Federal Space Agency
+link  http://www.roscosmos.ru/
+cats agencies 
+tags agencies 
+score 0
+.end
+
+._entry Turkish Space Agency
+link  
+cats agencies 
+tags agencies 
+score 0
+.end
+
+._entry Soviet space program
+link  
+cats agencies 
+tags agencies 
+score 0
+.end
+
+._entry Space Research and Remote Sensing Organization
+link  
+cats agencies 
+tags agencies 
+score 0
+.end
+
+._entry Polish Space Agency
+link  https://web.archive.org/web/20160509145348/https://www.polsa.gov.pl/pl/
+cats agencies 
+tags agencies europe poland
+score 0
+.end
+
+.entry South African National Space Agency
+link  http://www.sansa.org.za/
+cats agencies  research
+tags agencies africa south_africa research
+score 90
+.end
+
+._entry Space Research Institute of Saudi Arabia
+link  
+cats agencies 
+tags agencies 
+score 0
+.end
+
+. (Viện Công nghệ vũ trụ Việt Nam)
+.entry Space Technology Institute 
+link  http://www.vast.ac.vn/
+cats agencies  research
+tags agencies asia vietnam research
+score 90
+.end
+
+.entry Swedish National Space Agency
+link  http://www.snsa.se/
+cats agencies  research
+tags agencies europe sweden research
+score 90
+.end
+
+._entry Swiss Space Office
+link  
+cats agencies 
+tags agencies europe switzerland
+score 0
+.end
+
+.entry Turkmenistan National Space Agency
+link  http://www.turkmencosmos.gov.tm/
+cats agencies  research
+tags agencies asia turkmenistan research
+score 90
+.end
+
+.entry United Nations Office for Outer Space Affairs
+link  http://www.unoosa.org/
+cats agencies  policy
+tags agencies united_nations policy
+score 90
+.end
+
+.entry United Nations Committee on the Peaceful Uses of Outer Space
+link  http://www.unoosa.org/oosa/COPUOS/copuos.html
+cats agencies  policy
+tags agencies united_nations policy
+score 90
+.end
+
+.entry United Arab Emirates Space Agency
+link  http://www.space.gov.ae/
+cats agencies  research
+tags agencies uae middle_east research
+score 90
+.end
+
+.entry Mohammed bin Rashid Space Centre
+link  https://mbrsc.ae
+cats agencies research
+tags agencies middle_east uae research
+score 90
+.end
+
+.entry United States Space Force
+link  https://www.spaceforce.mil/
+cats agencies  research
+tags agencies usa north_america military research
+score 90
+.end
+
+.entry Syrian Space Agency
+link  https://www.facebook.com/syriaspace
+cats agencies  research
+tags agencies middle_east syria research
+score 90
+.end
+
