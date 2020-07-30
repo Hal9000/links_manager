@@ -8,12 +8,16 @@ art        Space Art
 asteroids  Asteroids
 forum      Discussion and Chat
 children   Links for/about Children
+education  Educational Institutions and Resources
 history    Space History
 policy     Policy-making Bodies
 law        Space Law
+games      Games and Edutainment
+safety     Space Safety Issues
+citizen_science Citizen Science
 experience Space Experiences
 museum     Museums and Information Centers
-info       General Space Information
+info       Space Information Resources
 news       Space News Sites
 blog       Blogs and Vlogs
 fans       Fan Sites
@@ -23,4 +27,5 @@ cast       Podcasts and Vidcasts
 astronomy  Astronomy
 magazine   Magazines and Publications
 event      Events (IRL and Online)
+software   Space-related Software
 mining     Mining of Moon/Asteroids 

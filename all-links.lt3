@@ -1,5 +1,145 @@
 .mixin links_mgr
 
+.entry Space Safety Coalition (SSC)
+link https://SpaceSafety.org
+cats alliance safety
+tags alliance safety
+score 80
+.end
+
+.entry Space.com
+link https://space.com
+cats info news
+tags info news
+score 90
+.end
+
+.entry Kerbal Space Program
+link https://www.kerbalspaceprogram.com/
+cats education software games
+tags education software games
+score 90
+.end
+
+.entry OpenLuna
+link https://openluna.org
+cats moon nonprofit
+tags moon nonprofit
+score 30
+.end
+
+.entry LiftPort Group
+link https://liftport.com
+cats moon commercial
+tags moon commercial elevator
+score 80
+.end
+
+.entry NASA Spaceflight
+link https://www.nasaspaceflight.com
+cats info news
+tags info news
+score 80
+.end
+
+.entry Spaceflight Insider
+link https://www.spaceflightinsider.com
+cats info news
+tags info news
+score 80
+.end
+
+.entry Next Spaceflight
+link https://nextspaceflight.com
+cats info news
+tags info news
+score 80
+.end
+
+.entry Satellite Today
+link https://www.satellitetoday.com
+cats info news
+tags info news
+score 80
+.end
+
+.entry Space Colorado
+link http://www.spacecolorado.org
+cats policy
+tags policy colorado
+score 80
+.end
+
+.entry Space Alliance of Southern California
+link https://www.alliancesocal.org/
+cats alliance
+tags alliance membership california
+score 80
+.end
+
+.entry Space News
+link https://spacenews.com/
+cats info education news
+tags  info education news
+score 80
+.end
+
+.entry Parabolic Arc
+link http://www.parabolicarc.com/
+cats blog info news
+tags  blog info news
+score 80
+.end
+
+.entry Coalition for Publishing Data in Earth and Space Sciences
+link http://www.copdess.org/
+cats alliance info research education
+tags  alliance info research education
+score 80
+.end
+
+.entry SpaceRef
+link http://spaceref.com/
+cats info news
+tags info news
+score 80
+.end
+
+.entry Spaceflight.com
+link https://spaceflight.com
+cats info news
+tags info news
+score 80
+.end
+
+.entry Spaceflight Now
+link https://spaceflightNow.com
+cats info news
+tags info news
+score 80
+.end
+
+.entry Spaceflight Industries
+link https://www.spaceflightindustries.com
+cats commercial info
+tags commercial info
+score 80
+.end
+
+.entry Spaceflight Academy (Museum of Flight)
+https://www.museumofflight.org/Exhibits/spaceflight-academy
+cats education museums
+tags education museum
+score 70
+.end
+
+.entry British Interplanetary Society
+link https://www.bis-space.com/what-we-do/publications
+cats education nonprofit
+tags education nonprofit membership europe uk
+score 90
+.end
+
 .entry National Space Society
 link https://space.nss.org/
 cats nonprofit
@@ -9,8 +149,8 @@ score 90
 
 .entry Kepler Shipyards
 link https://www.keplershipyards.com/
-cats commercial
-tags  commercial
+cats commercial research
+tags  commercial research
 score 90
 .end
 
@@ -30,8 +170,8 @@ score 50
 
 .entry CosmoQuest
 link https://cosmoquest.org
-cats cast
-tags cast 
+cats cast news
+tags cast  news
 score 30
 .end
 
@@ -121,7 +261,7 @@ score 90
 
 .entry Carl Sagan Institute
 link https://carlsaganinstitute.org
-cats research information
+cats research info
 tags BADCERT
 score 90
 .end
@@ -180,8 +320,8 @@ score 50
 . Has links
 .entry Galaxy Forum
 link https://galaxyforum.org/about-us/
-cats forum information
-tags nonprofit
+cats forum info
+tags nonprofit forum info
 score 50
 .end
 
@@ -202,8 +342,8 @@ score 60
 . Good for Handbook Frus Astro
 .entry Hobby Space
 link https://www.hobbyspace.com
-cats hobby art 
-tags hobby art 
+cats hobby art info education
+tags hobby art info education
 score 90
 .end
 
@@ -289,8 +429,8 @@ score 60
 . informative but hokey
 .entry Permanent
 link https://www.permanent.com
-cats research information
-tags research information
+cats research info
+tags research info
 score 50
 .end
 
@@ -453,7 +593,7 @@ score 20
 
 .entry Zoo Universe
 link https://www.zooniverse.org/
-cats research education
+cats research education citizen_science 
 tags citizen_science research education
 score 70
 .end
@@ -551,8 +691,8 @@ score 0
 
 .entry Integrated Space Analytics
 link https://integratedspaceanalytics.com/cms/
-cats education research information
-tags education research information
+cats education research info
+tags education research info
 score 80
 .end
 
@@ -593,8 +733,8 @@ score 80
 
 .entry NewSpace Center
 link https://http://www.newspacecenter.com
-cats information
-tags information
+cats info
+tags info
 score 70
 .end
 
@@ -635,8 +775,8 @@ score 80
 
 .entry Space Safety Magazine
 link https://www.spacesafetymagazine.com/
-cats magazine policy
-tags magazine policy
+cats magazine policy safety
+tags magazine policy safety
 score 70
 .end
 
@@ -719,8 +859,8 @@ score 90
 
 .entry Apollo 11 in Real Time
 link https://apolloinrealtime.org/11/
-cats moon history information education
-tags moon lunar history information education nasa
+cats moon history info education
+tags moon lunar history info education nasa
 score 80
 .end
 
@@ -754,8 +894,8 @@ score 80
 
 .entry Daily Moon Position
 link https://www.dailymoonposition.com/default.aspx
-cats moon information astronomy
-tags moon lunar information astronomy
+cats moon info astronomy
+tags moon lunar info astronomy
 score 30
 .end
 
@@ -775,8 +915,8 @@ score 30
 
 .entry ISRU Info
 link https://isruinfo.com
-cats moon research information
-tags moon lunar research information
+cats moon research info
+tags moon lunar research info
 score 80
 .end
 
@@ -1062,7 +1202,7 @@ score 90
 
 .entry European Space Agency
 link https://www.esa.int/ESA
-cats agencie research
+cats agencies research
 tags agencies esa europe research
 score 90
 .end
@@ -1181,8 +1321,8 @@ score 0
 
 .entry Moon Zoo
 link https://www.moonzoo.org/
-cats moon citizen_science research education information
-tags moon lunar citizen_science research education information
+cats moon citizen_science research education info
+tags moon lunar citizen_science research education info
 score 60
 .end
 

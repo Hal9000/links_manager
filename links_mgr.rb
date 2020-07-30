@@ -51,12 +51,13 @@ def entry
 end
 
 def finalize    # Run automatically at end of input file
-
-STDERR.puts Tags["jaxa"]
-
-  Cats.each do |cat, list|
+  keys = CatNames.keys
+  keys.each do |key|
+    cat, list = key, Cats[key]
+    next if list.nil?
     list = list.sort {|a, b| b.score <=> a.score }
-    _out "<h2>#{CatNames[cat]}</h2><hr>"
+    category = CatNames[cat] || cat
+    _out "<h2>#{category}</h2><hr>"
     list.each do |e|
       _out "<a href='#{e.link}' style='text-decoration: none'>#{e.title}</a><br>"
     end
