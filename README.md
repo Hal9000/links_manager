@@ -20,7 +20,7 @@ The basics are:
 <li>Links are divided into fairly broad categories. Each may have any number of entries. Currently, these are not nested, but I am thinking of it.</li>
 <li>Links can have any number of tags. Currently a tag is a single token (with blank spaces replaced by underscores.</li>
 <li>The categories will be arranged in some kind of logical layout (think classic Yahoo). The tags are currently just alphabetized, but later might be in a "tag cloud" or whatever.</li>
-<li>The categories <i>may_</i> have hundreds of entries.  So there is a need for some kind of collapse/expand feature for management of screen real estate. </li>
+<li>The categories <i>may</i> have hundreds of entries.  So there is a need for some kind of collapse/expand feature for management of screen real estate. </li>
 <li>I will add a hidden "score" to each link so as to put the important ones at the top of the category. </li>
 <li>I am considering a "More..." link or the equivalent for the rest.</li>
 <li>Eventually there should be a search feature.</li>
@@ -46,7 +46,7 @@ An entry looks like this:
 <p>
 
 The <font size=+1><tt>entry</tt></font> command is defined by the <font size=+1><tt>entry</tt></font> method in <font size=+1><tt>links_mgr.rb</tt></font>, which is
-pure Ruby (referenced by the command <font size=+1><tt>.mixin</tt></font> links_mgr`).
+pure Ruby (referenced by the command <font size=+1><tt>.mixin links_mgr</tt></font>).
 <p>
 
 Any line starting with "dot-space" is a Livetext comment.

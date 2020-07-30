@@ -14,7 +14,7 @@ The basics are:
 Links are divided into fairly broad categories. Each may have any number of entries. Currently, these are not nested, but I am thinking of it.
 Links can have any number of tags. Currently a tag is a single token (with blank spaces replaced by underscores.
 The categories will be arranged in some kind of logical layout (think classic Yahoo). The tags are currently just alphabetized, but later might be in a "tag cloud" or whatever.
-The categories _may_ have hundreds of entries.  So there is a need for some kind of collapse/expand feature for management of screen real estate. 
+The categories _may have hundreds of entries.  So there is a need for some kind of collapse/expand feature for management of screen real estate. 
 I will add a hidden "score" to each link so as to put the important ones at the top of the category. 
 I am considering a "More..." link or the equivalent for the rest.
 Eventually there should be a search feature.
@@ -37,7 +37,7 @@ An entry looks like this:
 .image entry.png
 
 The `entry command is defined by the `entry method in `[links_mgr.rb], which is
-pure Ruby (referenced by the command `.mixin links_mgr`).
+pure Ruby (referenced by the command `[.mixin links_mgr]).
 
 Any line starting with "dot-space" is a Livetext comment.
 
