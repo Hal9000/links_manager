@@ -25,6 +25,35 @@ The basics are:
 <li>I am considering a "More..." link or the equivalent for the rest.</li>
 <li>Eventually there should be a search feature.</li>
 </ul>
+<h2>What I Need Help With...</h2>
+<p>
+
+I am Not a Web Guy (for various reasons). I am generating static HTML for now.
+<p>
+
+At present, I'm not trying to make this a full-fledged web app. I hope it will be later, though.
+<p>
+
+Right now, I'm trying to do three basic things:
+<p>
+
+<ul>
+<li>Most importantly, make it better looking. It is awful right now.</li>
+<li>Introduce some kind of collapse/expand or similar option.</li>
+<li>Do whatever else is "easy" in terms of search/tags/whatever (without making it a real web app yet).</li>
+</ul>
+I have had <font size=+1><tt>MVP.css</tt></font> recommended to me. It looks interesting, but I haven't yet grasped how I should
+change my markup to make use of it.
+<p>
+
+I've also had <font size=+1><tt>skeleton.css</tt></font> recommended, but haven't really looked yet. As a CSS newbie, I wouldn't
+really know where to start.
+<p>
+
+On another page, I've played with Bootstrap a little for collapsing/expanding. It's not bad, but I 
+definitely don't understand what all my options are.
+<p>
+
 <h2>Current status</h2>
 <p>
 

@@ -20,6 +20,31 @@ I am considering a "More..." link or the equivalent for the rest.
 Eventually there should be a search feature.
 .end
 
+.h2 What I Need Help With...
+
+I am Not a Web Guy (for various reasons). I am generating static HTML for now.
+
+At present, I'm not trying to make this a full-fledged web app (though it will be later). So all I 
+really need right now is help understanding some CSS and JS enhancements. I can add these to my
+generator code and (in a few months) fold it into a real app.
+
+So I'm trying to do three basic things:
+
+.list
+Most importantly, make it better looking. It is awful right now.
+Introduce some kind of collapse/expand or similar option.
+Do whatever else is "easy" in terms of search/tags/whatever (without making it a real web app yet).
+.end
+
+I have had `MVP.css recommended to me. It looks interesting, but I haven't yet grasped how I should
+change my markup to make use of it.
+
+I've also had `skeleton.css recommended, but haven't really looked yet. As a CSS newbie, I wouldn't
+really know where to start.
+
+On another page, I've played with Bootstrap a little for collapsing/expanding. It's not bad, but I 
+definitely don't understand what all my options are.
+
 .h2 Current status
 
 At present, the static HTML is generated from the file `[all-links.lt3].
