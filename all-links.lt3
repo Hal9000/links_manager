@@ -1,4 +1,45 @@
-.mixin links_mgr
+
+.entry Women in Planetary Science
+link https://womeninplanetaryscience.wordpress.com/
+cats blog
+tags blog women
+score 90
+.end
+
+.entry Planetary Society Blogs
+link https://www.planetary.org/articles
+cats nonprofit blog
+tags nonprofit blog
+score 90
+.end
+
+.entry Parabolic Arc
+link http://www.parabolicarc.com/
+cats blog news
+tags blog news
+score 90
+.end
+
+.entry NASA: Mars 2020
+link https://blogs.nasa.gov/mars2020/
+cats agencies blog
+tags agencies blog nasa
+score 90
+.end
+
+.entry ESA Blog
+link https://esa.int/ESA
+cats agencies blogs
+tags blog esa agencies europe
+score 90
+.end
+
+.entry Centauri Dreams
+link https://www.centauri-dreams.org/
+cats blog
+tags blog interstellar
+score 80
+.end
 
 .entry Space Safety Coalition (SSC)
 link https://SpaceSafety.org

@@ -23,6 +23,41 @@ def _get_data!(line)  # helper - get multiple items
   data
 end
 
+def bootstrap_setup
+  _out <<~HTML
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Space Links</title>
+  </head>
+  <body>
+    <!-- h1>Hello, world!</h1 -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<!--
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+If you’re using our compiled JavaScript, don’t forget to include CDN versions of jQuery and Popper.js before it.
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+-->
+  HTML
+end
+
+def close_body
+  _out "  </body>"
+  _out "</html>"
+end
+
 def entry
   e = Entry.new
   e.title = @_data
@@ -50,7 +85,7 @@ def entry
   end
 end
 
-def finalize    # Run automatically at end of input file
+def dont_finalize    # Run automatically at end of input file
   keys = CatNames.keys
   keys.each do |key|
     cat, list = key, Cats[key]
@@ -78,6 +113,33 @@ def finalize    # Run automatically at end of input file
     _out str
   end
   
+end
+
+def category
+  cat = _args[0]
+  title = CatNames[cat]
+  list = Cats[cat]
+
+  _out <<~HTML
+  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="##{cat}" aria-expanded="false" aria-controls="#{cat}">
+    #{title}
+  </button>
+</p>
+<div class="collapse" id="#{cat}">
+  <div class="card card-body">
+HTML
+  list.each do |item|
+    _out "<a href=#{item.link}>#{item.title}</a>"
+  end
+  _out <<~HTML
+  </div>
+</div>
+HTML
+rescue => err
+  STDERR.puts "Error in #{cat}"
+  STDERR.puts err
+  STDERR.puts err.backtrace
+  exit
 end
 
 def _entry
