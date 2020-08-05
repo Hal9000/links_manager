@@ -32,8 +32,14 @@ So I'm trying to do three basic things:
 
 .list
 Most importantly, make it better looking. It is awful right now.
-Introduce some kind of collapse/expand or similar option.
 Do whatever else is "easy" in terms of search/tags/whatever (without making it a real web app yet).
+.end
+
+I'm using Bootstrap now (but not well).
+
+.list
+Can I make the contents of each category scrollable?
+Can I extend the buttons to all be "wide"?
 .end
 
 I have had `MVP.css recommended to me. It looks interesting, but I haven't yet grasped how I should
@@ -54,7 +60,7 @@ See the $$link[Livetext repo|https://github.com/Hal9000/livetext]. Install as a 
 
 .mono
     $ gem install livetext
-    $ livetext all-links.lt3 >myfile.html
+    $ livetext space-links.lt3 >myfile.html
 .end
 
 An entry looks like this:

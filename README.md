@@ -31,16 +31,24 @@ The basics are:
 I am Not a Web Guy (for various reasons). I am generating static HTML for now.
 <p>
 
-At present, I'm not trying to make this a full-fledged web app. I hope it will be later, though.
+At present, I'm not trying to make this a full-fledged web app (though it will be later). So all I 
+really need right now is help understanding some CSS and JS enhancements. I can add these to my
+generator code and (in a few months) fold it into a real app.
 <p>
 
-Right now, I'm trying to do three basic things:
+So I'm trying to do three basic things:
 <p>
 
 <ul>
 <li>Most importantly, make it better looking. It is awful right now.</li>
-<li>Introduce some kind of collapse/expand or similar option.</li>
 <li>Do whatever else is "easy" in terms of search/tags/whatever (without making it a real web app yet).</li>
+</ul>
+I'm using Bootstrap now (but not well).
+<p>
+
+<ul>
+<li>Can I make the contents of each category scrollable?</li>
+<li>Can I extend the buttons to all be "wide"?</li>
 </ul>
 I have had <font size=+1><tt>MVP.css</tt></font> recommended to me. It looks interesting, but I haven't yet grasped how I should
 change my markup to make use of it.
@@ -66,7 +74,7 @@ See the <a style='text-decoration: none' href='https://github.com/Hal9000/livete
 
 <pre>
     $ gem install livetext
-    $ livetext all-links.lt3 >myfile.html
+    $ livetext space-links.lt3 >myfile.html
 </pre>
 An entry looks like this:
 <p>
