@@ -4,22 +4,34 @@
 
 .bootstrap_setup
 
-.category commercial
+.category info
+.category news
+.category blog
+.category art
+.category hobby
+.category consumer
+.category experience
+.category children
+.category podcast
 .category nonprofit
-. category moon       Moon and Lunar-focused
-. category mars       Mars-focused
-.category research   Research and Infrastructure
-.category agencies   Space Agencies
-. category info       General Space Information
-. category news       Space News Sites
-.category blog       Space Blogs
-. category podcast    Space Podcasts
-. category vidcast    Space Video and Vlogs
-. category fans       Fan Sites
-.category astronomy  Astronomy
-.category asteroids  Asteroids
-.category alliance   Alliances
-.category hobby      Space-related Hobbies
-.category art        Space Art
+.category event
+.category commercial
+.category agencies
+.category museum
+.category games
+.category software
+.category forum
+.category research
+.category law
+.category magazine
+.category alliance
+.category citizen_science
+.category moon  
+.category mars
+.category mining
+.category asteroids
+.category history
+.category fans
+.category astronomy
 
 .close_body

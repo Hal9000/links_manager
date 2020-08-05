@@ -33,9 +33,23 @@ def bootstrap_setup
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>Space Links</title>
+  <style>
+    .card-fixed-height {
+      max-height: 400px;
+      overflow: scroll;
+    }
+    ::-webkit-scrollbar {
+      -webkit-appearance: none;
+      width: 7px;
+    }
+    ::-webkit-scrollbar-thumb {
+      border-radius: 4px;
+      background-color: rgba(0, 0, 0, .5);
+      -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, .5);
+    }
+  </style>
   </head>
   <body>
-    <!-- h1>Hello, world!</h1 -->
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -50,10 +64,15 @@ If you’re using our compiled JavaScript, don’t forget to include CDN version
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 -->
+
+  <main class="container my-2 py-5">
+    <div class="accordion" id="accordionExample">
   HTML
 end
 
 def close_body
+  _out "      </div> <!-- accordion -->"
+  _out "    </div> <!-- main -->"
   _out "  </body>"
   _out "</html>"
 end
@@ -118,18 +137,19 @@ end
 def category
   cat = _args[0]
   title = CatNames[cat]
-  list = Cats[cat]
+  list = Cats[cat] || []
 
   _out <<~HTML
-  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="##{cat}" aria-expanded="false" aria-controls="#{cat}">
+  <button class="btn btn-link card-header bg-primary text-white text-left py-3" type="button" data-toggle="collapse" data-target="##{cat}" aria-expanded="false" aria-controls="#{cat}">
     #{title}
   </button>
 </p>
-<div class="collapse" id="#{cat}">
-  <div class="card card-body">
+<div class="collapse" id="#{cat}" aria-labelledby="headingOne" data-parent="#accordionExample">
+  <div class="card-body card-fixed-height">
 HTML
+  STDERR.puts "#{cat}:  #{list.size rescue 0} items"
   list.each do |item|
-    _out "<a href=#{item.link}>#{item.title}</a>"
+    _out %[<a class="d-block mb-2" href=#{item.link}>#{item.title}</a>]
   end
   _out <<~HTML
   </div>

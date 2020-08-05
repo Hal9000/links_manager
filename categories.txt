@@ -9,6 +9,7 @@ asteroids  Asteroids
 forum      Discussion and Chat
 children   Links for/about Children
 education  Educational Institutions and Resources
+consumer   Consumer Goods and Services
 history    Space History
 policy     Policy-making Bodies
 law        Space Law
