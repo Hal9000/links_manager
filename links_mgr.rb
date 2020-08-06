@@ -110,8 +110,8 @@ def dont_finalize    # Run automatically at end of input file
     cat, list = key, Cats[key]
     next if list.nil?
     list = list.sort {|a, b| b.score <=> a.score }
-    category = CatNames[cat] || cat
-    _out "<h2>#{category}</h2><hr>"
+    categ = CatNames[cat] || cat
+    _out "<h2>#{categ}</h2><hr>"
     list.each do |e|
       _out "<a href='#{e.link}' style='text-decoration: none'>#{e.title}</a><br>"
     end
@@ -139,15 +139,25 @@ def category
   title = CatNames[cat]
   list = Cats[cat] || []
 
+  (STDERR.puts "#{cat} has no links"; return) if list.empty?
+
+  # STDERR.puts "----- cat = #{cat}  title = #{title}  #{list.size} items"
+
+  if title.nil?
+    STDERR.puts "Unknown title for #{cat}"
+  end
+
   _out <<~HTML
+  <div class="card">
   <button class="btn btn-link card-header bg-primary text-white text-left py-3" type="button" data-toggle="collapse" data-target="##{cat}" aria-expanded="false" aria-controls="#{cat}">
     #{title}
   </button>
+  </div>
 </p>
 <div class="collapse" id="#{cat}" aria-labelledby="headingOne" data-parent="#accordionExample">
   <div class="card-body card-fixed-height">
 HTML
-  STDERR.puts "#{cat}:  #{list.size rescue 0} items"
+  # STDERR.puts "#{cat}:  #{list.size} items"
   list.each do |item|
     _out %[<a class="d-block mb-2" href=#{item.link}>#{item.title}</a>]
   end

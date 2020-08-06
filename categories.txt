@@ -24,7 +24,7 @@ blog       Blogs and Vlogs
 fans       Fan Sites
 hobby      Space-related Hobbies
 research   Research and Infrastructure
-cast       Podcasts and Vidcasts
+podcast    Podcasts and Vidcasts
 astronomy  Astronomy
 magazine   Magazines and Publications
 event      Events (IRL and Online)

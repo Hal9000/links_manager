@@ -370,27 +370,6 @@ tags XXX
 score 80
 .end
 
-.bootstrap_setup
-
-.category commercial
-.category nonprofit
-. category moon       Moon and Lunar-focused
-. category mars       Mars-focused
-.category research   Research and Infrastructure
-.category agencies   Space Agencies
-. category info       General Space Information
-. category news       Space News Sites
-.category blog       Space Blogs
-. category podcast    Space Podcasts
-. category vidcast    Space Video and Vlogs
-. category fans       Fan Sites
-.category astronomy  Astronomy
-.category asteroids  Asteroids
-.category alliance   Alliances
-.category hobby      Space-related Hobbies
-.category art        Space Art
-
-.close_body
 .entry Women in Planetary Science
 link https://womeninplanetaryscience.wordpress.com/
 cats blog
