@@ -1,11 +1,14 @@
+.nopara
 .mixin links_mgr
 
 .include all-links.lt3
 
 .bootstrap_setup
 
-<center><img height=80 width=690 src=banner-spacelinks.jpg></img></center>
-Click to open a category. Each list is scrollable. Curated by the $$link[Open Space Foundation|https://openspace.foundation]
+<div align=center>
+<img height=80 width=690 src=banner-spacelinks.jpg></img>
+<br>Click to open a category. Each list is scrollable. Curated by the $$link[Open Space Foundation|https://openspace.foundation]
+</div>
 <br>
 
 .category info

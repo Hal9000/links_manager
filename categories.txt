@@ -1,4 +1,5 @@
 agencies   Space Agencies
+finance    Finance, Funding, and Accelerators
 nonprofit  Nonprofit Advocacy Groups
 moon       Moon and Lunar-focused
 mars       Mars-focused

@@ -113,239 +113,232 @@ score 80
 
 .entry Space Camp (VC)
 link https://www.spacecamp.vc/
-cats experiences
-tags XXX
+cats experience children
+tags  experience children
 score 80
 .end
 
 .entry Space Policy Journal
 link https://www.journals.elsevier.com/space-policy
-cats law policy
-tags XXX
+cats law policy magazine
+tags law policy magazine
 score 80
 .end
 
 .entry AeroSpace.org
 link https://aerospace.org/
 cats law policy
-tags XXX
+tags law policy
 score 80
 .end
 
 .entry Smithsonian Air & Space Magazine
 link https://www.airspacemag.com/
 cats magazine
-tags XXX
+tags magazine
 score 80
 .end
 
 .entry Space Answers
 link https://www.spaceanswers.com/
-cats info education
-tags XXX
+cats info education children
+tags info education children
 score 80
 .end
 
 .entry Space Adventures
 link https://spaceadventures.com/
-cats commercial experience
-tags XXX
+cats commercial experience consumer children
+tags commercial experience consumer children
 score 80
 .end
 
 .entry Celestis Space Memorials
 link https://celestis.com
 cats commercial consumer
-tags XXX
+tags commercial consumer
 score 80
 .end
 
 .entry KSC Astronaut Training Experience
 link https://www.kennedyspacecenter.com/camps-and-education/astronaut-training-experience
-cats commercial
-tags XXX
+cats commercial experience education children
+tags commercial experience education children
 score 80
 .end
 
 .entry KSC Shuttle Launch Experience
 link https://www.kennedyspacecenter.com/explore-attractions/shuttle-a-ship-like-no-other/shuttle-launch-experience
-cats commercial experience education
-tags XXX
+cats commercial experience education children
+tags commercial experience education children
 score 80
 .end
 
 .entry Space Center
 link https://spacecenter.org/
-cats commercial experience education info
-tags XXX
+cats commercial experience education info children museum
+tags commercial experience education info children museum
 score 80
 .end
 
 .entry Cosmosphere
 link https://cosmo.org
-cats commercial experience info
-tags XXX
+cats commercial experience info children museum
+tags commercial experience info children museum
 score 80
 .end
 
 .entry Russian Space Web
 link https://russianspaceweb.com
 cats info
-tags XXX
+tags info
 score 80
 .end
 
 .entry Star City Tours
 link https://starcity-tours.com
 cats commercial experience
-tags XXX
+tags commercial experience
 score 80
 .end
 
 .entry SEDS
 link https://SEDS.org
 cats nonprofit education
-tags XXX
+tags nonprofit education
 score 80
 .end
 
 .entry SEDS at Rice University
 link https://seds.rice.edu
-cats nonprofit education
-tags XXX
+cats nonprofit education fans
+tags nonprofit education
 score 80
 .end
 
 .entry SETI@Home
 link https://setiathome.berkeley.edu
-cats research education experience
-tags XXX
+cats research education experience info
+tags research education experience info
 score 80
 .end
 
 .entry SETI
 link https://seti.org
-cats nonprofit education researh
-tags XXX
+cats nonprofit education research
+tags nonprofit education research
 score 80
 .end
 
 .entry Space Policy Online
 link https://spacepolicyonline.com
 cats law policy
-tags XXX
+tags law policy
 score 80
 .end
 
 .entry Space Law Magazine
 link https://www.americanbar.org/groups/young_lawyers/publications/tyl/topics/space-law/
 cats law magazine
-tags XXX
-score 80
-.end
-
-.entry Space Angels
-link https://www.spaceangels.com/
-cats finance
-tags XXX
+tags law magazine
 score 80
 .end
 
 .entry Earthlight VR
 link https://earthlightvr.com/
-cats game education software
-tags XXX
+cats game education software children 
+tags game education software children 
 score 80
 .end
 
 .entry Earthlight Foundation
 link https://earthlightfoundation.org/
 cats nonprofit
-tags XXX
+tags nonprofit
 score 80
 .end
 
 .entry Artist Chesley Bonestell (.org)
 link https://www.bonestell.org/
 cats art
-tags XXX
+tags art
 score 80
 .end
 
 .entry 
 link https://www.chesleybonestell.com/
 cats art
-tags XXX
+tags art
 score 80
 .end
 
 .entry Outer Space Art Gallery
 link http://www.outer-space-art-gallery.com/
 cats art
-tags XXX
+tags art
 score 80
 .end
 
 .entry Artist Jim Plaxco on Saatchi
 link https://www.saatchiart.com/JimPlaxco
 cats art
-tags XXX
+tags art
 score 80
 .end
 
 .entry Artist Jim Plaxco on Society6
 link https://society6.com/jimplaxco
 cats art
-tags XXX
+tags art
 score 80
 .end
 
 .entry Tharsis Artworks (Marilynn Flynn)
 link http://www.tharsisartworks.com/
 cats art
-tags XXX
+tags art
 score 80
 .end
 
 .entry Artist Paul van Hoeydonck
 link http://www.paulvanhoeydonck.com/
 cats art
-tags XXX
+tags art
 score 80
 .end
 
 .entry Astro Art
 link https://www.astroart.org/
 cats art
-tags XXX
+tags art
 score 80
 .end
 
 .entry Artist David A. Hardy
 link https://i4is.org/who-we-are/interstellar-artists/david-a-hardy/
 cats art
-tags XXX
+tags art
 score 80
 .end
 
 .entry NovaSpace
 link https://novaspace.com/
 cats nonprofit commercial event
-tags XXX
+tags nonprofit commercial event
 score 80
 .end
 
 .entry SpaceFest
 link https://www.spacefest.info/
 cats commercial event
-tags XXX
+tags commercial event
 score 80
 .end
 
 .entry SpaceArt.org
 link https://spaceart.org/
 cats art
-tags XXX
+tags art 
 score 80
 .end
 
@@ -366,13 +359,13 @@ score 80
 .entry Leeward Space Foundation
 link http://jplspace.tripod.com/
 cats nonprofit
-tags XXX
+tags nonprofit
 score 80
 .end
 
 .entry Women in Planetary Science
 link https://womeninplanetaryscience.wordpress.com/
-cats blog
+cats blog research
 tags blog women
 score 90
 .end
@@ -414,8 +407,8 @@ score 80
 
 .entry Space Safety Coalition (SSC)
 link https://SpaceSafety.org
-cats alliance safety
-tags alliance safety
+cats alliance safety policy law
+tags alliance safety policy law
 score 80
 .end
 
@@ -428,8 +421,8 @@ score 90
 
 .entry Kerbal Space Program
 link https://www.kerbalspaceprogram.com/
-cats education software games
-tags education software games
+cats education software games children
+tags education software games children
 score 90
 .end
 
@@ -443,7 +436,7 @@ score 30
 .entry LiftPort Group
 link https://liftport.com
 cats moon commercial
-tags moon commercial elevator
+tags moon commercial lunar elevator
 score 80
 .end
 
@@ -492,21 +485,21 @@ score 80
 .entry Space News
 link https://spacenews.com/
 cats info education news
-tags  info education news
+tags info education news
 score 80
 .end
 
 .entry Parabolic Arc
 link http://www.parabolicarc.com/
 cats blog info news
-tags  blog info news
+tags blog info news
 score 80
 .end
 
 .entry Coalition for Publishing Data in Earth and Space Sciences
 link http://www.copdess.org/
 cats alliance info research education
-tags  alliance info research education
+tags alliance info research education
 score 80
 .end
 
@@ -540,7 +533,7 @@ score 80
 
 .entry Spaceflight Academy (Museum of Flight)
 https://www.museumofflight.org/Exhibits/spaceflight-academy
-cats education museums
+cats education museum
 tags education museum
 score 70
 .end
@@ -562,13 +555,13 @@ score 90
 .entry Kepler Shipyards
 link https://www.keplershipyards.com/
 cats commercial research
-tags  commercial research
+tags commercial research
 score 90
 .end
 
 .entry Alliance for Space Development
 link https://allianceforspacedevelopment.org/
-cats nonprofit
+cats nonprofit alliance
 tags nonprofit membership alliance
 score 90
 .end
@@ -583,7 +576,7 @@ score 50
 .entry CosmoQuest
 link https://cosmoquest.org
 cats cast news
-tags cast  news
+tags cast news
 score 30
 .end
 
@@ -659,8 +652,8 @@ score 80
 
 .entry Caelus Partners
 link https://www.caeluspartners.com/
-cats commercial
-tags commercial
+cats commercial finance
+tags commercial finance
 score 20
 .end
 
@@ -754,8 +747,8 @@ score 60
 . Good for Handbook Frus Astro
 .entry Hobby Space
 link https://www.hobbyspace.com
-cats hobby art info education
-tags hobby art info education
+cats hobby art info education children
+tags hobby art info education children
 score 90
 .end
 
@@ -811,14 +804,14 @@ score 40
 
 .entry Minnesota Space Frontier Society
 link https://www.mnsfs.org/
-cats 
+cats fans
 tags BADCERT
 score 40
 .end
 
 .entry OASIS (Los Angeles NSS)
 link https://www.oasis-nss.org/wordpress/
-cats nonprofit
+cats nonprofit fans
 tags nonprofit membership
 score 40
 .end
@@ -832,7 +825,7 @@ score 60
 
 .entry Oregon L5 Society
 link https://www.oregonl5.org/
-cats nonprofit
+cats nonprofit fans
 tags BADCERT nonprofit membership
 score 60
 .end
@@ -848,7 +841,7 @@ score 50
 
 .entry Philadelphia Area Space Alliance
 link https://phillypasa.blogspot.com/
-cats blog
+cats blog fans
 tags blog
 score 30
 .end
@@ -876,14 +869,14 @@ score 90
 
 .entry Share Space Foundation
 link https://sharespace.org
-cats education nonprofit
+cats education nonprofit children consumer
 tags BADCERT
 score 90
 .end
 
 .entry Sheboygan Space Society
 link https://www.sheboyganspacesociety.org/
-cats general
+cats fans
 tags BADCERT
 score 40
 .end
@@ -922,20 +915,20 @@ score 90
 .entry Space Frontier Foundation
 link https://spacefrontier.org/
 cats nonprofit
-tags  nonprofit
+tags nonprofit
 score 80
 .end
 
 ._entry Space is More
 link https://www.spaceismore.com/
-cats 
+cats info fans
 tags
 score 50
 .end
 
 .entry Space Renaissance International
 link https://spacerenaissance.space
-cats nonprofit 
+cats nonprofit fans
 tags nonprofit membership europe
 score 50
 .end
@@ -963,28 +956,28 @@ score 80
 
 .entry St. Louis Space Frontier
 link https://stlouisspacefrontier.org/
-cats nonprofit
+cats nonprofit fans
 tags nonprofit
 score 50
 .end
 
 .entry Tau Zero Foundation
 link https://tauzero.aero
-cats research
-tags research
+cats research 
+tags research interstellar
 score 70
 .end
 
 .entry Tennessee Valley Interstellar Workshop
 link https://tviw.us/
 cats nonprofit
-tags nonprofit
+tags nonprofit interstellar
 score 70
 .end
 
 .entry Tucson L5 Space Society
 link https://www.l5space.org/
-cats nonprofit
+cats nonprofit fans
 tags nonprofit
 score 70
 .end
@@ -996,7 +989,7 @@ tags
 score 30
 .end
 
-.entry Wake Forest Institute for Regenerative Medicine
+._entry Wake Forest Institute for Regenerative Medicine
 link https://school.wakehealth.edu/Research/Institutes-and-Centers/Wake-Forest-Institute-for-Regenerative-Medicine
 cats general
 tags
@@ -1068,7 +1061,7 @@ score 80
 
 .entry Deep Space Industries
 link https://deepspaceindustries.com/
-cats commercial
+cats commercial mining
 tags commercial
 score 80
 .end
@@ -1144,7 +1137,7 @@ score 80
 .end
 
 .entry NewSpace Center
-link https://http://www.newspacecenter.com
+link https://www.newspacecenter.com
 cats info
 tags info
 score 70
@@ -1159,8 +1152,8 @@ score 90
 
 .entry Planetary Resources
 link https://www.planetaryresources.com/
-cats commercial
-tags commercial
+cats commercial mining
+tags commercial mining
 score 80
 .end
 
@@ -1173,22 +1166,22 @@ score 50
 
 .entry Room Space Journal
 link https://room.eu.com/
-cats general
-tags commercial
+cats magazine
+tags commercial magazine
 score 40
 .end
 
 .entry Space Exploration Architecture
 link https://www.spacexarch.com/
-cats  commercial research
+cats commercial research
 tags commercial research
 score 80
 .end
 
 .entry Space Safety Magazine
 link https://www.spacesafetymagazine.com/
-cats magazine policy safety
-tags magazine policy safety
+cats magazine policy safety law
+tags magazine policy safety law
 score 70
 .end
 
@@ -1237,7 +1230,7 @@ score 80
 .entry CesiumAstro
 link https://www.cesiumastro.com/
 cats commercial
-tags commercial
+tags commercial electronics
 score 0
 .end
 
@@ -1271,7 +1264,7 @@ score 90
 
 .entry Apollo 11 in Real Time
 link https://apolloinrealtime.org/11/
-cats moon history info education
+cats moon history info education children
 tags moon lunar history info education nasa
 score 80
 .end
@@ -1304,7 +1297,7 @@ tags moon lunar asteroids education
 score 80
 .end
 
-.entry Daily Moon Position
+._entry Daily Moon Position
 link https://www.dailymoonposition.com/default.aspx
 cats moon info astronomy
 tags moon lunar info astronomy
@@ -1327,19 +1320,19 @@ score 30
 
 .entry ISRU Info
 link https://isruinfo.com
-cats moon research info
-tags moon lunar research info
+cats moon research info mining
+tags moon lunar research info mining
 score 80
 .end
 
-.entry Lunar and Planetary Institute – Lunar Science and Exploration
+.entry Lunar and Planetary Institute
 link https://www.lpi.usra.edu
-cats moon research education
-tags moon lunar research education
+cats moon research education info
+tags moon lunar research education info
 score 90
 .end
 
-.entry Lunar and Planetary Laboratory – University of Arizona
+.entry Lunar and Planetary Laboratory (Univ Arizona)
 link https://www.lpl.arizona.edu/
 cats moon research education
 tags moon lunar research education
@@ -1348,8 +1341,8 @@ score 90
 
 .entry Lunar Colony Fund
 link https://lunarcolonyfund.org
-cats moon
-tags moon lunar
+cats moon finance
+tags moon lunar finance
 score 40
 .end
 
@@ -1502,15 +1495,15 @@ score 30
 
 .entry Shackleton Energy
 link https://www.shackletonenergy.com
-cats moon commercial
-tags moon lunar commercial
+cats moon commercial mining
+tags moon lunar commercial mining
 score 70
 .end
 
 .entry Space Angels
 link https://www.spaceangels.com
-cats moon 
-tags moon lunar
+cats moon finance commercial
+tags moon lunar finance commercial
 score 60
 .end
 
@@ -1526,13 +1519,6 @@ link https://space-mining.tech/
 cats moon research
 tags moon lunar research
 score 50
-.end
-
-.entry Moon Village Association
-link https://moonvillageassociation.org/
-cats moon
-tags moon lunar membership
-score 70
 .end
 
 .entry Lunar Exploration Analysis Group
@@ -1565,8 +1551,8 @@ score 90
 
 .entry NASA Apollo
 link https://www.nasa.gov/mission_pages/apollo/index.html
-cats moon history
-tags moon lunar nasa history apollo
+cats moon history children
+tags moon lunar nasa history apollo children
 score 80
 .end
 
@@ -1594,7 +1580,7 @@ score 90
 .entry NASA Innovative Advanced Concepts
 link https://www.nasa.gov/directorates/spacetech/niac/index.html
 cats research
-tags nasa research usa
+tags nasa research usa niac
 score 90
 .end
 
@@ -1678,7 +1664,7 @@ score 40
 .entry Free Luna
 link https://freeluna.blogspot.com/
 cats moon blog
-tags moon lunar
+tags moon lunar blog
 score 30
 .end
 
@@ -1768,8 +1754,8 @@ score 30
 
 .entry The Mars Society
 link https://www.marssociety.org/
-cats mars research
-tags mars membership research
+cats mars research nonprofit
+tags mars membership research nonprofit
 score 80
 .end
 
@@ -1817,7 +1803,7 @@ score 90
 
 ._entry Belarus Space Agency
 link  
-cats agencies  research
+cats agencies research
 tags agencies belarus research
 score 0
 .end
@@ -1825,7 +1811,7 @@ score 0
 . (Asociación Centroamericana de Aeronáutica y el Espacio)
 .entry Central American Association for Aeronautics and Space 
 link  https://www.acae-ca.org/
-cats agencies  research
+cats agencies research
 tags agencies central_america research
 score 80
 .end
@@ -1840,28 +1826,28 @@ score 0
 
 .entry Mexican Space Agency
 link  http://www.aem.gob.mx/
-cats agencies  research
+cats agencies research
 tags agencies mexico north_america research
 score 90
 .end
 
 .entry Algerian Space Agency
 link  http://www.asal.dz/
-cats agencies  research
+cats agencies research
 tags agencies algeria research
 score 80
 .end
 
 ._entry Asia-Pacific Space Cooperation Organization
 link  http://www.apsco.int/
-cats agencies  research
+cats agencies research
 tags agencies asia pacific research
 score 0
 .end
 
 .entry Austrian Space Agency
 link  http://www.ffg.at/
-cats agencies  research
+cats agencies research
 tags agencies austria europe research
 score 90
 .end
@@ -1871,13 +1857,6 @@ link  https://web.archive.org/web/20090922155709/http://www.science.az/en/amaka/
 cats agencies 
 tags agencies azerbaijan
 score 0
-.end
-
-._entry National Space Science Agency
-link  
-cats agencies 
-tags agencies 
-score 80
 .end
 
 .entry Belgian Institute for Space Aeronomy
@@ -2155,14 +2134,6 @@ tags agencies tunisia research
 score 0
 .end
 
-. (UzbekCosmos)
-._entry Uzbek State Space Research Agency 
-link  
-cats agencies 
-tags agencies 
-score 0
-.end
-
 .entry National Space Agency of Ukraine
 link  http://www.nkau.gov.ua/
 cats agencies  research
@@ -2185,31 +2156,24 @@ score 90
 .end
 
 .entry Netherlands Institute for Space Research
-link  http://www.sron.nl/
+link http://www.sron.nl/
 cats agencies  research
 tags agencies europe netherlands research
 score 90
 .end
 
 .entry Norwegian Space Centre
-link  http://www.spacecentre.no/
+link http://www.spacecentre.no/
 cats agencies  research
 tags agencies europe norway research
 score 90
 .end
 
 .entry Pakistan Space and Upper Atmosphere Research Commission
-link  http://www.suparco.gov.pk/
+link http://www.suparco.gov.pk/
 cats agencies  research
 tags agencies asia pakistan research
 score 90
-.end
-
-._entry Portugal Space
-link  
-cats agencies 
-tags agencies europe portugal
-score 0
 .end
 
 .entry Romanian Space Agency
@@ -2217,13 +2181,6 @@ link  http://www.rosa.ro/
 cats agencies  research
 tags agencies europe romania research
 score 90
-.end
-
-._entry Egypt Remote Sensing Center (defunct)
-link  
-cats agencies 
-tags agencies 
-score 0
 .end
 
 .entry Centre Royal de Télédétection Spatiale
@@ -2306,28 +2263,28 @@ score 0
 
 .entry Turkmenistan National Space Agency
 link  http://www.turkmencosmos.gov.tm/
-cats agencies  research
+cats agencies research
 tags agencies asia turkmenistan research
 score 90
 .end
 
 .entry United Nations Office for Outer Space Affairs
 link  http://www.unoosa.org/
-cats agencies  policy
+cats agencies policy
 tags agencies united_nations policy
 score 90
 .end
 
 .entry United Nations Committee on the Peaceful Uses of Outer Space
 link  http://www.unoosa.org/oosa/COPUOS/copuos.html
-cats agencies  policy
+cats agencies policy
 tags agencies united_nations policy
 score 90
 .end
 
 .entry United Arab Emirates Space Agency
 link  http://www.space.gov.ae/
-cats agencies  research
+cats agencies research
 tags agencies uae middle_east research
 score 90
 .end
@@ -2341,14 +2298,14 @@ score 90
 
 .entry United States Space Force
 link  https://www.spaceforce.mil/
-cats agencies  research
+cats agencies research
 tags agencies usa north_america military research
 score 90
 .end
 
 .entry Syrian Space Agency
 link  https://www.facebook.com/syriaspace
-cats agencies  research
+cats agencies research
 tags agencies middle_east syria research
 score 90
 .end
