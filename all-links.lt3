@@ -1,33 +1,33 @@
 
-.entry NEEDS TITLE
+.entry Space Crowdfund
 link http://spacecrowdfund.com/
 desc NEEDS DESCRIPTION
-cats NEEDS_CATEGORY
-tags NEEDS_TAGS
+cats finance/90 commercial/40
+tags finance/90 commercial/40
 score 80
 .end
 
-.entry NEEDS TITLE
+.entry Space Ventures Investors
 link http://www.spaceventuresinvestors.com/
 desc NEEDS DESCRIPTION
-cats NEEDS_CATEGORY
-tags NEEDS_TAGS
+cats finance/90 commercial/50
+tags finance/90 commercial/50
 score 80
 .end
 
-.entry NEEDS TITLE
+.entry The Space Review
 link https://www.thespacereview.com/
 desc NEEDS DESCRIPTION
-cats NEEDS_CATEGORY
-tags NEEDS_TAGS
+cats news/80
+tags news/80
 score 80
 .end
 
-.entry Satellite Constellations - NewSpace Index
+.entry Satellite Constellations (NewSpace Index)
 link https://www.newspace.im/
-desc Concise original overview of upcoming commercial satellite constellations.
-cats NEEDS_CATEGORY
-tags NEEDS_TAGS
+desc Concise original overview of upcoming commercial satellite constellations
+cats news/70 satellites/90 info/60
+tags news/70 satellites/90 newspace/50 info/60
 score 80
 .end
 
@@ -39,19 +39,19 @@ tags NEEDS_TAGS
 score 80
 .end
 
-.entry NEEDS TITLE
+.entry Arceon
 link https://arceon.nl/
 desc NEEDS DESCRIPTION
-cats NEEDS_CATEGORY
-tags NEEDS_TAGS
+cats commercial/80
+tags commercial/80 Netherlands/90
 score 80
 .end
 
-.entry Space Times - India's First Space Journalism Digital Channel
+.entry Space Times (India)
 link https://spacetimes.in/
-desc Space Times is India's first Space Journalism digital channel. We share the most recent news and information about the Space Industry and all that is happening around the Cosmos.
-cats NEEDS_CATEGORY
-tags NEEDS_TAGS
+desc India's first Space Journalism digital channel. The most recent news and information about the space industry.
+cats news/80
+tags news/80 India/90 international/80
 score 80
 .end
 
