@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class TagScoreTest < ActiveSupport::TestCase
+class LinksTagTest < ActiveSupport::TestCase
   # test "the truth" do
   #   assert true
   # end

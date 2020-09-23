@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class CategoryScoreTest < ActiveSupport::TestCase
+class CategoriesLinkTest < ActiveSupport::TestCase
   # test "the truth" do
   #   assert true
   # end
