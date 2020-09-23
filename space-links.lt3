@@ -1,7 +1,10 @@
 .nopara
 .mixin links_mgr
 
+.include categories.lt3
 .include all-links.lt3
+
+.find_dups
 
 .bootstrap_setup
 
@@ -19,7 +22,7 @@
 .category consumer
 .category experience
 .category children
-.category podcast
+. category podcast
 .category nonprofit
 .category event
 .category commercial
@@ -28,17 +31,21 @@
 .category games
 .category software
 .category forum
-.category research
+.category history
+.category fans
+.category astronomy
 .category law
 .category magazine
 .category alliance
 .category citizen_science
+.category research
+.category hardware
+.category satellites
 .category moon  
 .category mars
 .category mining
 .category asteroids
-.category history
-.category fans
-.category astronomy
 
 .close_body
+
+. all_tags

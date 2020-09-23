@@ -1,0 +1,149 @@
+
+.new_category NEEDS_CATEGORY No category...
+Doesn't have a category assigned. Please fix.
+.end
+
+.new_category agencies   Space Agencies
+National or regional space agencies and organizations closely affiliated with them.
+.end
+
+.new_category finance    Finance, Funding, and Accelerators
+The financial side of space activities, from investment groups to incubators.
+.end
+
+.new_category nonprofit  Nonprofit Advocacy Groups
+Organizations promoting space through advocacy and activism.
+.end
+
+.new_category moon       Moon and Lunar-focused
+Groups, companies, and technologies relating to our Moon.
+.end
+
+.new_category space_studies Space Studies
+Coursework and educational opportunities (space as an academic discipline).
+.end
+
+.new_category hardware Hardware and Infrastructure
+The technology of space, including vehicles, electronics, materials, and software.
+.end
+
+.new_category satellites Satellites
+All things related to artificial satellites, cubesats, and more.
+.end
+
+.new_category mars       Mars-focused
+All things related to Mars exploration, science, and settlement.
+.end
+
+.new_category alliance   Alliances
+Alliances of companies and organizations (non-profit and commercial).
+.end
+
+.new_category commercial Commercial Space
+All things related to commercial endeavors in space activities.
+.end
+
+.new_category art        Space Art
+Space art resources, galleries, and information.
+.end
+
+.new_category asteroids  Asteroids
+Resources related to the exploration and mining of asteroids and minor planets.
+.end
+
+.new_category forum      Discussion and Chat
+Forums, discussion, and live chat relating to space.
+.end
+
+.new_category children   Links for/about Children
+Space resources (educational and otherwise) that could be relevant for children.
+.end
+
+.new_category education  Educational Institutions and Resources
+Universities and educational programs and resources relating to space.
+.end
+
+.new_category consumer   Consumer Goods and Services
+Items and services for sale, including books, models, artwork, space experiences, and more.
+.end
+
+.new_category history    Space History
+Resources relating to the history of spaceflight.
+.end
+
+.new_category policy     Policy-making Bodies
+Governmental agencies and similar insitutions involved in space policy.
+.end
+
+.new_category law        Space Law
+Resources and institutions relating to space law.
+.end
+
+.new_category games      Games and Edutainment
+Games, software, and simulations relating to space.
+.end
+
+.new_category safety     Space Safety Issues
+Resources and institutions dealing with the issues of space and human safety.
+.end
+
+.new_category citizen_science Citizen Science
+Resources for "citizen science" and crowd science with space emphasis.
+.end
+
+.new_category experience Space Experiences
+Space camps, zero-gee flights, tourist attractions, and more.
+.end
+
+.new_category museum     Museums and Information Centers
+Facilities with displays and exhibits relating to spaceflight.
+.end
+
+.new_category info       Space Information Resources
+Online resources serving as repositories of facts and data about spaceflight.
+.end
+
+.new_category news       Space News Sites
+Space news from space agencies, from commercial space, from universities, and from other sources.
+.end
+
+.new_category blog       Blogs and Vlogs
+Blogs, video blogs, podcasts, vidcasts, and more.
+.end
+
+.new_category fans       Fan Sites
+Enthusiasts, smaller localized groups, and chapters of larger organizations.
+.end
+
+.new_category hobby      Space-related Hobbies
+Hobbies and activities relating to space.
+.end
+
+.new_category research   Research and Development
+The science and technology of spaceflight. See also Hardware and Infrastructure.
+.end
+
+.new_category podcast    Podcasts and Vidcasts
+Podcasts, vidcasts, and more.
+.end
+
+.new_category astronomy  Astronomy
+More related to astronomy than space.
+.end
+
+.new_category magazine   Magazines, Journals, and Publications
+Periodicals (popular and/or scientific) relating to spaceflight.
+.end
+
+.new_category event      Events (IRL and Online)
+Space-related events both "in-person" and virtual, from Yuri's Night to ISDC.
+.end
+
+.new_category software   Space-related Software
+Software of various kinds including simulations and games as well as educational and engineering resources.
+.end
+
+.new_category mining     Mining of Moon/Asteroids 
+All things relating to plans and processes for obtaining resources from the moon and asteroids.
+.end
+
