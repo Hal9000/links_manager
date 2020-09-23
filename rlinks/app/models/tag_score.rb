@@ -1,0 +1,2 @@
+class TagScore < ApplicationRecord
+end
