@@ -44,14 +44,14 @@ def _get_metadata(e)
 end
 
 
-class Entry < ActiveRecord::Base
+class Entry # < ActiveRecord::Base
   attr_accessor :link, :title, :desc, :cats, :tags, :score, :timeout, :badcert
   def initialize
     @desc = ""
   end
 end
 
-class Category < ActiveRecord::Base
+class Category # < ActiveRecord::Base
   attr_accessor :name, :title, :desc, :list
   def initialize(name, title, desc)
     @name, @title, @desc = 
@@ -60,7 +60,7 @@ class Category < ActiveRecord::Base
   end
 end
 
-class Tag < ActiveRecord::Base
+class Tag # < ActiveRecord::Base
   attr_accessor :tag
   def initialize(tag)
     @tag = tag
@@ -106,6 +106,7 @@ end
 def _get_scored_item(str)
   word, score = str.split("/")
   score ||= 0
+# STDERR.puts "--- GOT: #{[word, score].inspect}"
   [word, score]
 end
 
@@ -164,15 +165,16 @@ def close_body
 end
 
 def get_id(table, field, value, *fields)
+  STDERR.puts [table, field, value, *fields].inspect
   exist = DB.execute("select * from #{table} where #{field}=#{wrap value}")
   if exist.empty?
-    STDERR.puts "=== OOPS? #{table} #{field} #{value}"
+#   STDERR.puts "=== OOPS? #{table} #{field} #{value}"
     case table
       when :links
-        STDERR.puts " === ADD LINK"
+#       STDERR.puts " === ADD LINK"
         add_link(*fields)
       when :categories
-        STDERR.puts " === ADD CAT"
+#       STDERR.puts " === ADD CAT"
         add_cat(*fields)
       when :tags
         STDERR.puts " === ADD TAG"
@@ -200,7 +202,7 @@ def add_tag(tag)
 end
 
 def add_cat_score(linkid, catid, score)
-  STDERR.puts "Add CAT: #{[linkid, catid, score].inspect}"
+# STDERR.puts "Add CAT: #{[linkid, catid, score].inspect}"
   exist = DB.execute("select * from category_scores where link_id = #{linkid} and cat_id = #{catid}")
   if exist.empty?
     DB.execute("insert into category_scores values(#{linkid}, #{catid}, #{score})")
@@ -208,7 +210,7 @@ def add_cat_score(linkid, catid, score)
 end
 
 def add_tag_score(linkid, tagid, score)
-  STDERR.puts "Add TAG: #{[linkid, tagid, score].inspect}"
+# STDERR.puts "Add TAG: #{[linkid, tagid, score].inspect}"
   exist = DB.execute("select * from tag_scores where link_id = #{linkid} and tag_id = #{tagid}")
   if exist.empty?
     DB.execute("insert into tag_scores values(#{linkid}, #{tagid}, #{score})")
@@ -251,7 +253,7 @@ def entry
           e.tags[word] = score
           Tags[tag] ||= []
           Tags[tag] << e
-          tagid = get_id(:tags, :tag, tag, tag)
+          tagid = get_id(:tags, :tag, word, word)
           add_tag_score(linkid, tagid, score)
         end
       when /score/
