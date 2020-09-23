@@ -19,10 +19,9 @@ The basics are:
 <ul>
 <li>Links are divided into fairly broad categories. Each may have any number of entries. Currently, these are not nested, but I am thinking of it.</li>
 <li>Links can have any number of tags. Currently a tag is a single token (with blank spaces replaced by underscores.</li>
-<li>The categories will be arranged in some kind of logical layout (think classic Yahoo). The tags are currently just alphabetized, but later might be in a "tag cloud" or whatever.</li>
-<li>The categories <i>may</i> have hundreds of entries.  So there is a need for some kind of collapse/expand feature for management of screen real estate. </li>
-<li>I will add a hidden "score" to each link so as to put the important ones at the top of the category. </li>
-<li>I am considering a "More..." link or the equivalent for the rest.</li>
+<li>The categories will be arranged in some kind of logical layout (think classic Yahoo). The tags are currently not implemented, but later might be in a "tag cloud" or whatever.</li>
+<li><b>DONE</b> The categories <i>may</i> have hundreds of entries.  So there is a need for some kind of collapse/expand feature for management of screen real estate. </li>
+<li><b>DONE</b> I will add a hidden "score" to each link so as to put the important ones at the top of the category. (This is now per-category and per-tag.)</li>
 <li>Eventually there should be a search feature.</li>
 </ul>
 <h2>What I Need Help With...</h2>
