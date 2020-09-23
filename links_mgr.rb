@@ -3,6 +3,8 @@ require 'open-uri'
 
 require "sqlite3"
 
+require 'active_record'
+
 DB = SQLite3::Database.new "osf.db"
 
 def wrap(value)
@@ -42,15 +44,14 @@ def _get_metadata(e)
 end
 
 
-
-class Entry
+class Entry < ActiveRecord::Base
   attr_accessor :link, :title, :desc, :cats, :tags, :score, :timeout, :badcert
   def initialize
     @desc = ""
   end
 end
 
-class Category
+class Category < ActiveRecord::Base
   attr_accessor :name, :title, :desc, :list
   def initialize(name, title, desc)
     @name, @title, @desc = 
@@ -59,12 +60,13 @@ class Category
   end
 end
 
-class Tag
+class Tag < ActiveRecord::Base
   attr_accessor :tag
   def initialize(tag)
     @tag = tag
   end
 end
+
 
 ### toplevel
 
