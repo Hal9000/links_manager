@@ -1,4 +1,4 @@
 class CategoriesLink < ApplicationRecord
-  has_many :links
-  has_many :categories
+  belongs_to :link
+  belongs_to :category
 end
