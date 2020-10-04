@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Link:</strong>
+  <%= @link.link %>
+</p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @link.title %>
+</p>
+
+<p>
+  <strong>Desc:</strong>
+  <%= @link.desc %>
+</p>
+
+<p>
+  <strong>Timeout:</strong>
+  <%= @link.timeout %>
+</p>
+
+<p>
+  <strong>Badcert:</strong>
+  <%= @link.badcert %>
+</p>
+
+<%= link_to 'Edit', edit_link_path(@link) %> |
+<%= link_to 'Back', links_path %>
