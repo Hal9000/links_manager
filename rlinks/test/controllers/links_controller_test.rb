@@ -17,7 +17,7 @@ class LinksControllerTest < ActionDispatch::IntegrationTest
 
   test "should create link" do
     assert_difference('Link.count') do
-      post links_url, params: { link: { badcert: @link.badcert, desc: @link.desc, link: @link.link, score: @link.score, timeout: @link.timeout, title: @link.title } }
+      post links_url, params: { link: { badcert: @link.badcert, desc: @link.desc, link: @link.link, timeout: @link.timeout, title: @link.title } }
     end
 
     assert_redirected_to link_url(Link.last)
@@ -34,7 +34,7 @@ class LinksControllerTest < ActionDispatch::IntegrationTest
   end
 
   test "should update link" do
-    patch link_url(@link), params: { link: { badcert: @link.badcert, desc: @link.desc, link: @link.link, score: @link.score, timeout: @link.timeout, title: @link.title } }
+    patch link_url(@link), params: { link: { badcert: @link.badcert, desc: @link.desc, link: @link.link, timeout: @link.timeout, title: @link.title } }
     assert_redirected_to link_url(@link)
   end
 

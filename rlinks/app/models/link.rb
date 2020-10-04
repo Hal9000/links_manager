@@ -1,6 +1,6 @@
 class Link < ApplicationRecord
-  has_many :categories_link
-  has_many :links_tag
-  has_many :categories, through: :categories_link
-  has_many :tags, through: :links_tag
+  has_many :category_scores
+  has_many :tag_scores
+  has_many :categories, through: :category_scores
+  has_many :tags, through: :tag_scores
 end

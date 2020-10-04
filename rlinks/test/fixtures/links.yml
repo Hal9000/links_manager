@@ -4,7 +4,6 @@ one:
   link: MyString
   title: MyString
   desc: MyString
-  score: 1
   timeout: false
   badcert: false
 
@@ -12,6 +11,5 @@ two:
   link: MyString
   title: MyString
   desc: MyString
-  score: 1
   timeout: false
   badcert: false

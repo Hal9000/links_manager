@@ -1,4 +1,4 @@
 class Tag < ApplicationRecord
-  has_many :links_tags
-  has_many :links, through: :links_tags
+  has_many :tag_scores
+  has_many :links, through: :tag_scores
 end

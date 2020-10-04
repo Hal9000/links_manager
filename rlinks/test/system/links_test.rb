@@ -17,7 +17,6 @@ class LinksTest < ApplicationSystemTestCase
     check "Badcert" if @link.badcert
     fill_in "Desc", with: @link.desc
     fill_in "Link", with: @link.link
-    fill_in "Score", with: @link.score
     check "Timeout" if @link.timeout
     fill_in "Title", with: @link.title
     click_on "Create Link"
@@ -33,7 +32,6 @@ class LinksTest < ApplicationSystemTestCase
     check "Badcert" if @link.badcert
     fill_in "Desc", with: @link.desc
     fill_in "Link", with: @link.link
-    fill_in "Score", with: @link.score
     check "Timeout" if @link.timeout
     fill_in "Title", with: @link.title
     click_on "Update Link"
