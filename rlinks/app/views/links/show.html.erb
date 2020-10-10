@@ -1,5 +1,11 @@
 <p id="notice"><%= notice %></p>
 
+<br>
+<%= link_to 'Edit', edit_link_path(@link) %> |
+<%= link_to 'Back', links_path %>
+<br>
+<br>
+
 <p>
   <strong>Link:</strong>
   <%= @link.link %>
@@ -24,6 +30,18 @@
   <strong>Badcert:</strong>
   <%= @link.badcert %>
 </p>
+
+<p>
+  <strong>Categories</strong>
+  <%= @link.categories.map {|x| x.desc }.join(", ") %>
+</p>
+
+<p>
+  <strong>Tags</strong>
+  <%= @link.tags.map {|x| x.tag }.join(", ") %>
+</p>
+
+<br>
 
 <%= link_to 'Edit', edit_link_path(@link) %> |
 <%= link_to 'Back', links_path %>

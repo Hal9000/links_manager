@@ -1,30 +1,53 @@
 <p id="notice"><%= notice %></p>
 
-<h1>Links</h1>
+<h1>Links Manager</h1>
+<hr>
+
+<br>
+<%= link_to 'Create a new link', new_link_path %>
+
+<br>
+<br>
 
 <table>
   <thead>
     <tr>
-      <th>Link</th>
-      <th>Title</th>
-      <th>Desc</th>
-      <th>Timeout</th>
-      <th>Badcert</th>
-      <th colspan="3"></th>
+      <th align=left>Title</th>
+      <th></th>
+      <th align=left>Description</th>
+      <th align=left>URL</th>
+      <th align=left>Categories</th>
+      <th align=left>Tags</th>
     </tr>
   </thead>
 
   <tbody>
     <% @links.each do |link| %>
       <tr>
-        <td><%= link.link %></td>
-        <td><%= link.title %></td>
-        <td><%= link.desc %></td>
-        <td><%= link.timeout %></td>
-        <td><%= link.badcert %></td>
-        <td><%= link_to 'Show', link %></td>
-        <td><%= link_to 'Edit', edit_link_path(link) %></td>
-        <td><%= link_to 'Destroy', link, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td>
+           <%= 
+             title = link.title.truncate(30, separate: ' ')
+             title = raw("<b>#{title}</b>") if title =~ /NEEDS/
+             title
+            %>
+        <td>
+           <%= link_to(link) { image_tag "eye.png", size: 16 } %>
+           <%= link_to(edit_link_path(link)) { image_tag "pencil.png", size: 16 } %>
+           <%= link_to(link.link) { image_tag "www.png", size: 16 } %>
+           <%= link_to(link, method: :delete, data: { confirm: 'Are you sure?' }) do
+                 image_tag "redx.png", size: 16 end
+           %>
+        </td>
+        <td>
+           <%= 
+             desc = link.desc.truncate(30, separate: ' ')
+             desc = raw("<b>#{desc}</b>") if desc =~ /NEEDS/
+             desc
+            %>
+        </td>
+        <td><%= link.link.truncate(35) %></td>
+        <td><%= link.categories.size %></td>
+        <td><%= link.tags.size %></td>
       </tr>
     <% end %>
   </tbody>
@@ -32,4 +55,4 @@
 
 <br>
 
-<%= link_to 'New Link', new_link_path %>
+<%= link_to 'Create a new link', new_link_path %>

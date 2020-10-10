@@ -1,9 +1,16 @@
 <p id="notice"><%= notice %></p>
 
+<br>
+<%= link_to 'Edit', edit_tag_path(@tag) %> |
+<%= link_to 'Back', tags_path %>
+<br>
+<br>
+
 <p>
   <strong>Tag:</strong>
   <%= @tag.tag %>
 </p>
 
+<br>
 <%= link_to 'Edit', edit_tag_path(@tag) %> |
 <%= link_to 'Back', tags_path %>
