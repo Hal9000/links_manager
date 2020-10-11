@@ -1,4 +1,8 @@
+<h2><%= @link.title %></h2>
+
 <p id="notice"><%= notice %></p>
+
+<hr>
 
 <br>
 <%= link_to 'Edit', edit_link_path(@link) %> |
@@ -33,7 +37,7 @@
 
 <p>
   <strong>Categories</strong>
-  <%= @link.categories.map {|x| x.desc }.join(", ") %>
+  <%= @link.categories.map {|x| x.title }.join(",\n") %>
 </p>
 
 <p>
