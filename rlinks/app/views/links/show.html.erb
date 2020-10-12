@@ -1,29 +1,76 @@
+<h2><%= @link.title %></h2>
+
 <p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Link:</strong>
-  <%= @link.link %>
-</p>
+<hr>
 
-<p>
-  <strong>Title:</strong>
-  <%= @link.title %>
-</p>
+<br>
+<%= link_to 'Edit', edit_link_path(@link) %> |
+<%= link_to 'Back', links_path %>
+<br>
+<br>
 
-<p>
-  <strong>Desc:</strong>
-  <%= @link.desc %>
-</p>
+<table>
+  <tr>
+  <td><strong>Link</strong></td>
+  <td><%= @link.link %></td>
+  </tr>
+  <tr>
+  <td><strong>Title</strong></td>
+  <td><%= @link.title %></td>
+  </tr>
+  <tr>
+  <td><strong>Desc</strong></td>
+  <td><%= @link.desc %></td>
+  </tr>
+  <tr>
+  <td><strong>Timeout</strong></td>
+  <td><%= @link.timeout %></td>
+  </tr>
+  <tr>
+  <td><strong>Badcert</strong></td>
+  <td><%= @link.badcert %></td>
+  </tr>
+  <tr>
+  <td valign=top><strong>Categories</strong></td>
+  <td>
+  <%  cats = @link.categories %>
+  <table cellspacing=0>
+     <th align=left>Name</th>
+     <th align=left>Score</th>
+     <th align=left>Title</th>
+  <%  cats.each do |cat|      %>
+  <%    score = CategoryScore.select(:score).where(category_id: cat.id, link_id: @link.id).first[:score] %>
+      <tr>
+        <td align=left><%= cat.name %></td>
+        <td align=left><%= score %></td>
+        <td align=left><%= cat.title %></td>
+      </tr>
+  <%  end                     %>
+  </table>
+  </td>
+  </tr>
+  <tr>
+  <td valign=top><strong>Tags</strong></td>
+  <td>
+  <%  tags = @link.tags %>
+  <table cellspacing=0>
+     <th align=left>Tag</th>
+     <th align=left>Score</th>
+  <%  tags.each do |tag|      %>
+  <%    score = TagScore.select(:score).where(tag_id: tag.id, link_id: @link.id).first[:score] %>
+      <tr>
+        <td align=left><%= tag.tag %></td>
+        <td align=left><%= score %></td>
+      </tr>
+  <%  end                     %>
+  </td>
+  </tr>
+  </table>
+  <tr>
+</table>
 
-<p>
-  <strong>Timeout:</strong>
-  <%= @link.timeout %>
-</p>
-
-<p>
-  <strong>Badcert:</strong>
-  <%= @link.badcert %>
-</p>
+<br>
 
 <%= link_to 'Edit', edit_link_path(@link) %> |
 <%= link_to 'Back', links_path %>
