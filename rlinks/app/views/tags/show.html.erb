@@ -1,3 +1,5 @@
+<h2><%= @tag.tag %></h2>
+
 <p id="notice"><%= notice %></p>
 
 <br>
@@ -6,10 +8,12 @@
 <br>
 <br>
 
-<p>
-  <strong>Tag:</strong>
-  <%= @tag.tag %>
-</p>
+<table>
+<tr>
+  <td><strong>Tag</strong></td>
+  <td><%= @tag.tag %></td>
+</tr>
+</table>
 
 <br>
 <%= link_to 'Edit', edit_tag_path(@tag) %> |

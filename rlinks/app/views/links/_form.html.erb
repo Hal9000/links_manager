@@ -11,31 +11,46 @@
     </div>
   <% end %>
 
+<h2>Editing: <%= link.title %></h2>
+<hr>
+
+<table><tr>
+<td>
   <div class="field">
     <%= form.label :link %>
-    <%= form.text_field :link %>
+    <%= form.text_field :link, size: 35 %>
   </div>
 
   <div class="field">
     <%= form.label :title %>
-    <%= form.text_field :title %>
+    <%= form.text_field :title, size: 45 %>
   </div>
 
   <div class="field">
     <%= form.label :desc %>
-    <%= form.text_field :desc %>
+    <%= form.text_area :desc, rows: 5, cols: 40 %>
+  </div>
+
+</td>
+<td width=5%></td>
+<td valign=top>
+  <b><i>These are not ordinarily set manually.</i></b>
+  <br> <br>
+
+  <div class="field">
+    <%= form.check_box :timeout, style: "display:inline" %>
+    <%= form.label :timeout, style: "display:inline"  %>
   </div>
 
   <div class="field">
-    <%= form.label :timeout %>
-    <%= form.check_box :timeout %>
+    <%= form.check_box :badcert, style: "display:inline" %>
+    <%= form.label :badcert, style: "display:inline"  %>
   </div>
+</td>
+</tr></table>
 
-  <div class="field">
-    <%= form.label :badcert %>
-    <%= form.check_box :badcert %>
-  </div>
 
+<hr>
   <div class="actions">
     <%= form.submit %>
   </div>

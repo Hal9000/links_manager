@@ -6,20 +6,20 @@
 <br>
 <br>
 
-<p>
-  <strong>Name:</strong>
-  <%= @category.name %>
-</p>
+<table>
+  <tr>
+  <td><strong>Name</strong></td>
+  <td><%= @category.name %></td>
+  </tr>
 
-<p>
-  <strong>Title:</strong>
-  <%= @category.title %>
-</p>
+  <td><strong>Title</strong></td>
+  <td><%= @category.title %></td>
+  </tr>
 
-<p>
-  <strong>Desc:</strong>
-  <%= @category.desc %>
-</p>
+  <td><strong>Description</strong></td>
+  <td><%= @category.desc %></td>
+  </tr>
+</table>
 
 <br>
 <%= link_to 'Edit', edit_category_path(@category) %> |

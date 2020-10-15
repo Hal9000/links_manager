@@ -11,10 +11,19 @@
     </div>
   <% end %>
 
+<h2>Editing: <%= tag.tag %></h2>
+<hr>
+
+<table><tr>
+<td valign=top> <%= form.label :tag %> </td>
+<td valign=top>
   <div class="field">
-    <%= form.label :tag %>
     <%= form.text_field :tag %>
   </div>
+</td>
+</tr>
+</table>
+
 
   <div class="actions">
     <%= form.submit %>

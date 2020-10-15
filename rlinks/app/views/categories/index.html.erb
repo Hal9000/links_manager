@@ -10,9 +10,9 @@
 <table>
   <thead>
     <tr>
-      <th>Title</th>
+      <th align=left>Title</th>
       <th colspan="3"></th>
-      <th>Desc</th>
+      <th align=left>Description</th>
     </tr>
   </thead>
 
@@ -20,9 +20,11 @@
     <% @categories.each do |category| %>
       <tr>
         <td><%= category.title %></td>
-        <td><%= link_to 'Show', category %></td>
-        <td><%= link_to 'Edit', edit_category_path(category) %></td>
-        <td><%= link_to 'Destroy', category, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to(category) { image_tag "eye.png", size: 16 } %>
+        <td><%= link_to(edit_category_path(tag)) { image_tag "pencil.png", size: 16 } %>
+        <td><%= link_to(category, method: :delete, data: { confirm: 'Are you sure?' }) do
+                 image_tag "redx.png", size: 16 end
+            %>
         <td><%= category.desc %></td>
       </tr>
     <% end %>
