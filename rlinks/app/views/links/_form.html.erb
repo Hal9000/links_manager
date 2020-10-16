@@ -54,4 +54,14 @@
   <div class="actions">
     <%= form.submit %>
   </div>
+
+<br>
+<br>
+<b>NOTE:</b> The website preview may not be displayed correctly. <br>
+This depends on how that site is coded.<br>
+You can go to <%= link_to(link.link, link.link, target: "external") %> to open in another window or tab.
+<br>
+<br>
+
+<iframe src='<%= link.link %>' width=90% height=500></iframe>
 <% end %>

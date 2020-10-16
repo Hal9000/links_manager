@@ -33,7 +33,7 @@
         <td>
            <%= link_to(link) { image_tag "eye.png", size: 16 } %>
            <%= link_to(edit_link_path(link)) { image_tag "pencil.png", size: 16 } %>
-           <%= link_to(link.link) { image_tag "www.png", size: 16 } %>
+           <%= link_to(link.link, target: "external") { image_tag "www.png", size: 16 } %>
            <%= link_to(link, method: :delete, data: { confirm: 'Are you sure?' }) do
                  image_tag "redx.png", size: 16 end
            %>
@@ -46,8 +46,15 @@
             %>
         </td>
         <td><%= link.link.truncate(35) %></td>
-        <td><%= link.categories.size %></td>
-        <td><%= link.tags.size %></td>
+        <% cats = link.categories.all.map {|x| x.title } 
+           tags = link.tags.all.map {|x| x.tag } 
+           cats -= ["No category..."]
+           tags -= ["NEEDS_TAGS"]
+           catsum = cats.empty? ? "NONE" : cats.size
+           tagsum = tags.empty? ? "NONE" : tags.size
+        %>
+        <td><%= catsum %></td>
+        <td><%= tagsum %></td>
       </tr>
     <% end %>
   </tbody>
