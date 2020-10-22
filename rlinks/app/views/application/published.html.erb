@@ -1,0 +1,101 @@
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Space Links</title>
+  <style>
+    .card-fixed-height {
+      max-height: 400px;
+      overflow: scroll;
+    }
+    ::-webkit-scrollbar {
+      -webkit-appearance: none;
+      width: 7px;
+    }
+    ::-webkit-scrollbar-thumb {
+      border-radius: 4px;
+      background-color: rgba(0, 0, 0, .5);
+      -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, .5);
+    }
+  </style>
+  </head>
+  <body>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<!--
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+If you’re using our compiled JavaScript, don’t forget to include CDN versions of jQuery and Popper.js before it.
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+-->
+
+  <main class="container my-2 py-5">
+    <div class="accordion" id="accordionExample">
+
+<div align=center>
+<img height=80 width=690 src=banner-spacelinks.jpg></img>
+<br>Click to open a category. Each list is scrollable. Curated by the $$link[Open Space Foundation|https://openspace.foundation]
+</div>
+<br>
+
+
+<% cats = Categories.all %>
+
+<% 
+   cats.each do |catrec|
+     id    = catrec[:id]
+     cname = catrec[:name]
+     title = catrec[:title]
+     desc  = catrec[:desc]
+     list  = CategoryScore.where("category_id = #{id}").all
+%>
+
+  <div class="card">
+  <button class="btn btn-link card-header bg-primary text-white text-left py-2" type="button" data-toggle="collapse" data-target="#<%= cname %>" aria-expanded="false" aria-controls="<%= cname %>">
+    <div style="float: left">#{title}</div> <div style="float: right"> <font size=-1><%= list.size %> links</font></div>
+  </button>
+  </div>
+<div class="collapse" id="<%= cname %>" aria-labelledby="headingOne" data-parent="#accordionExample">
+  <div class="card-body card-fixed-height pt-1">
+
+<%
+     links = []
+     list.each do |lrec|
+       links << lrec.values_at[:link_id, :score]
+     end
+     links = links.sort {|a, b| b[1] <=> a[1] }
+%>
+
+  <b> <%= desc %> </b>
+  <br><br>
+
+<%
+   list.each do |item|
+     score = item.cats[cat]
+     size = case (score / 34)
+       when 0; "-1"
+       when 1; "+0"
+       when 2; "+1"
+     end
+%>
+     <p class="d-block mb-1">
+        <font size=<% size%>>
+        <a href=<%= item.link >>
+        <%= item.title></a>
+        <%= item.desc></font>
+     </p>
+<%
+   end
+%>
+
+  </div>
+</div>
+
