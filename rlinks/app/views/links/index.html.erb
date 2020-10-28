@@ -26,35 +26,39 @@
       <tr>
         <td>
            <%= 
-             title = link.title.truncate(30, separate: ' ')
+             title = link.title.truncate(35, separate: ' ')
              title = raw("<b>#{title}</b>") if title =~ /NEEDS/
              title
             %>
         <td>
-           <%= link_to(link) { image_tag "eye.png", size: 16 } %>
-           <%= link_to(edit_link_path(link)) { image_tag "pencil.png", size: 16 } %>
-           <%= link_to(link.link, target: "external") { image_tag "www.png", size: 16 } %>
+           <%= link_to(link) { image_tag "eye.png" } %>
+           <%= link_to(edit_link_path(link)) { image_tag "pencil.png" } %>
+           <%= link_to(link.link, target: "external") { image_tag "www.png" } %>
            <%= link_to(link, method: :delete, data: { confirm: 'Are you sure?' }) do
-                 image_tag "redx.png", size: 16 end
+                 image_tag "redx.png" end
            %>
         </td>
         <td>
            <%= 
-             desc = link.desc.truncate(30, separate: ' ')
+             desc = link.desc.truncate(45, separate: ' ')
              desc = raw("<b>#{desc}</b>") if desc =~ /NEEDS/
              desc
             %>
         </td>
         <td><%= link.link.truncate(35) %></td>
-        <% cats = link.categories.all.map {|x| x.title } 
+        <% 
+           cats = link.categories.all.map {|x| x.title } 
            tags = link.tags.all.map {|x| x.tag } 
            cats -= ["No category..."]
            tags -= ["NEEDS_TAGS"]
            catsum = cats.empty? ? "NONE" : cats.size
            tagsum = tags.empty? ? "NONE" : tags.size
+
+           catsum = raw("<b>#{catsum}</b>") if catsum == "NONE"
+           tagsum = raw("<b>#{tagsum}</b>") if tagsum == "NONE"
         %>
-        <td><%= catsum %></td>
-        <td><%= tagsum %></td>
+        <td align=center><%= catsum %></td>
+        <td align=center><%= tagsum %></td>
       </tr>
     <% end %>
   </tbody>

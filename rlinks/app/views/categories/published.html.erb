@@ -41,45 +41,33 @@ If you’re using our compiled JavaScript, don’t forget to include CDN version
     <div class="accordion" id="accordionExample">
 
 <div align=center>
-<img height=80 width=690 src=banner-spacelinks.jpg></img>
-<br>Click to open a category. Each list is scrollable. Curated by the $$link[Open Space Foundation|https://openspace.foundation]
+<img height=80 width=690 src=<%= asset_path "banner-spacelinks.jpg" %>></img>
+<br>Click to open a category. Each list is scrollable. Curated by the 
+<a href=https://openspace.foundation>Open Space Foundation</a>
 </div>
 <br>
 
 
-<% cats = Categories.all %>
-
 <% 
-   cats.each do |catrec|
-     id    = catrec[:id]
-     cname = catrec[:name]
-     title = catrec[:title]
-     desc  = catrec[:desc]
-     list  = CategoryScore.where("category_id = #{id}").all
+   @cats.each do |c|
 %>
+
+  <!-- start of loop -->
 
   <div class="card">
-  <button class="btn btn-link card-header bg-primary text-white text-left py-2" type="button" data-toggle="collapse" data-target="#<%= cname %>" aria-expanded="false" aria-controls="<%= cname %>">
-    <div style="float: left">#{title}</div> <div style="float: right"> <font size=-1><%= list.size %> links</font></div>
+  <button class="btn btn-link card-header bg-primary text-white text-left py-2" type="button" data-toggle="collapse" data-target="#<%= c.name %>" aria-expanded="false" aria-controls="<%= c.name %>">
+    <div style="float: left"><%= c.title %></div> <div style="float: right"> <font size=-1><%= c.links.size %> links</font></div>
   </button>
   </div>
-<div class="collapse" id="<%= cname %>" aria-labelledby="headingOne" data-parent="#accordionExample">
+<div class="collapse" id="<%= c.name %>" aria-labelledby="headingOne" data-parent="#accordionExample">
   <div class="card-body card-fixed-height pt-1">
 
-<%
-     links = []
-     list.each do |lrec|
-       links << lrec.values_at[:link_id, :score]
-     end
-     links = links.sort {|a, b| b[1] <=> a[1] }
-%>
-
-  <b> <%= desc %> </b>
+  <b> <%= c.desc %> </b>
   <br><br>
 
 <%
-   list.each do |item|
-     score = item.cats[cat]
+   c.links.sort {|a, b| b.category_score(c.id) <=> a.category_score(c.id) }.each do |link|
+     score = link.category_score(c.id)
      size = case (score / 34)
        when 0; "-1"
        when 1; "+0"
@@ -87,13 +75,19 @@ If you’re using our compiled JavaScript, don’t forget to include CDN version
      end
 %>
      <p class="d-block mb-1">
-        <font size=<% size%>>
-        <a href=<%= item.link >>
-        <%= item.title></a>
-        <%= item.desc></font>
+        <font size=<% size %>>
+        <a href=<%= link.link %> style="text-decoration: underline">
+        <%= link.title %></a>
+        <%= link.desc %></font>
      </p>
 <%
    end
+%>
+     <!-- end of loop -->
+      </div>
+    </div>
+<%
+ end
 %>
 
   </div>

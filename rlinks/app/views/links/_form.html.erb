@@ -14,41 +14,85 @@
 <h2>Editing: <%= link.title %></h2>
 <hr>
 
-<table><tr>
-<td>
-  <div class="field">
-    <%= form.label :link %>
-    <%= form.text_field :link, size: 35 %>
-  </div>
+<table width=90%><tr>
+  <tr>
+    <td valign=top><strong><%= form.label :link %></strong></td>
+    <td valign=top><%= form.text_field :link, size: 35 %></td>
+  </tr>
 
-  <div class="field">
-    <%= form.label :title %>
-    <%= form.text_field :title, size: 45 %>
-  </div>
+  <tr>
+    <td valign=top><strong><%= form.label :title %></strong></td>
+    <td valign=top><%= form.text_field :title, size: 45 %></td>
+  </tr>
 
-  <div class="field">
-    <%= form.label :desc %>
-    <%= form.text_area :desc, rows: 5, cols: 40 %>
-  </div>
-
-</td>
-<td width=5%></td>
+  <tr>
+    <td valign=top><strong><%= form.label :desc %></strong></td>
+    <td valign=top><%= form.text_area :desc, rows: 5, cols: 40 %></td>
+  </tr>
+<tr>
+<td valign=top width=5%></td>
 <td valign=top>
+  <table border=1><tr><td valign=top>
   <b><i>These are not ordinarily set manually.</i></b>
   <br> <br>
 
-  <div class="field">
     <%= form.check_box :timeout, style: "display:inline" %>
     <%= form.label :timeout, style: "display:inline"  %>
-  </div>
+    <br>
 
-  <div class="field">
     <%= form.check_box :badcert, style: "display:inline" %>
     <%= form.label :badcert, style: "display:inline"  %>
-  </div>
+    </td></tr></table>
 </td>
-</tr></table>
+</tr>
 
+<tr>
+<td valign=top><strong>Categories</strong></td>
+<td valign=top>
+<table cellspacing=0>
+<th align=left width=25%>Name</th>
+<th align=left>Score</th>
+<th align=left>Title</th>
+<% count = 0  # ugliest solution ever!!  %>
+<%= form.fields_for :category_scores do |catform|  %>
+<tr>
+<% 
+   catid = link.category_scores[count].category_id 
+   cat   = Category.find(catid)
+   catname = cat.name
+   cat_title = cat.title
+%>
+<td valign=top><%= catname %></td>
+<td valign=top><%= catform.text_field :score, size: 4 %></td>
+<td valign=top><%= cat_title %></td>
+  <% count += 1 %>
+<% end %>
+</tr>
+</table>
+</td>
+</tr>
+
+<tr>
+<td valign=top><strong>Tags</strong></td>
+<td valign=top>
+<table>
+<th align=left width=25%>Tag</th>
+<th align=left>Score</th>
+<% count = 0  # ugliest solution ever!!  %>
+<%= form.fields_for :tag_scores do |tagform|  %>
+<tr>
+<% tagid = link.tag_scores[count].tag_id %>
+<% tagname = Tag.find(tagid).tag %>
+<td valign=top><%= tagname %></td>
+<td valign=top><%= tagform.text_field :score, size: 4 %></td>
+  <% count += 1 %>
+<% end %>
+</tr>
+</table>
+</td>
+
+</tr>
+</table>
 
 <hr>
   <div class="actions">

@@ -3,6 +3,11 @@ class CategoriesController < ApplicationController
 
   # GET /categories
   # GET /categories.json
+
+  def published
+    @cats = Category.all
+  end
+
   def index
     @categories = Category.all
   end

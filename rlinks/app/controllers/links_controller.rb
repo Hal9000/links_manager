@@ -69,6 +69,7 @@ class LinksController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def link_params
-      params.require(:link).permit(:link, :title, :desc, :timeout, :badcert)
+      params.require(:link).permit(:link, :title, :desc, :timeout, :badcert,
+                                   category_scores_attributes: [:category_id, :score])
     end
 end
