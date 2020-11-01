@@ -1,114 +1,109 @@
 <%= form_with(model: link, local: true) do |form| %>
-  <% if link.errors.any? %>
-         <div id="error_explanation">
-         <h2><%= pluralize(link.errors.count, "error") %> prohibited this link from being saved:</h2>
+<% if link.errors.any? %>
+<div id="error_explanation">
+  <h2><%= pluralize(link.errors.count, "error") %> prohibited this link from being saved:</h2>
 
-         <ul>
-         <% link.errors.full_messages.each do |message| %>
-           <li><%= message %></li>
-         <% end %>
-         </ul>
-         </div>
-       <% end %>
+  <ul>
+    <% link.errors.full_messages.each do |message| %>
+    <li><%= message %></li>
+    <% end %>
+  </ul>
+</div>
+<% end %>
 
-       <h2>Editing: <%= link.title %></h2>
-       <hr>
+<h2>Editing: <%= link.title %></h2>
+<hr>
 
-       <table width=90%><tr>
-       <tr>
-       <td valign=top><strong><%= form.label :link %></strong></td>
-       <td valign=top><%= form.text_field :link, size: 35 %></td>
-       </tr>
+<table width=90%><tr>
+    <tr>
+      <td valign=top><strong><%= form.label :link %></strong></td>
+      <td valign=top><%= form.text_field :link, size: 35 %></td>
+    </tr>
 
-       <tr>
-       <td valign=top><strong><%= form.label :title %></strong></td>
-       <td valign=top><%= form.text_field :title, size: 45 %></td>
-       </tr>
+    <tr>
+      <td valign=top><strong><%= form.label :title %></strong></td>
+      <td valign=top><%= form.text_field :title, size: 45 %></td>
+    </tr>
 
-       <tr>
-       <td valign=top><strong><%= form.label :desc %></strong></td>
-       <td valign=top><%= form.text_area :desc, rows: 5, cols: 40 %></td>
-       </tr>
-       <tr>
-       <td valign=top width=5%></td>
-       <td valign=top>
-       <table border=1>
-       <tr>
-       <td valign=top>
-       <b><i>These are not ordinarily set manually.</i></b>
-       <br> <br>
+    <tr>
+      <td valign=top><strong><%= form.label :desc %></strong></td>
+      <td valign=top><%= form.text_area :desc, rows: 5, cols: 40 %></td>
+    </tr>
+    <tr>
+      <td valign=top width=5%></td>
+      <td valign=top>
+        <table border=1>
+          <tr>
+            <td valign=top>
+              <b><i>These are not ordinarily set manually.</i></b>
+              <br> <br>
 
-       <%= form.check_box :timeout, style: "display:inline" %>
-       <%= form.label :timeout, style: "display:inline"  %>
-       <br>
+              <%= form.check_box :timeout, style: "display:inline" %>
+              <%= form.label :timeout, style: "display:inline"  %>
+              <br>
 
-       <%= form.check_box :badcert, style: "display:inline" %>
-       <%= form.label :badcert, style: "display:inline"  %>
-       </td>
-       </tr>
-       </table>
-       </td>
-       </tr>
+              <%= form.check_box :badcert, style: "display:inline" %>
+              <%= form.label :badcert, style: "display:inline"  %>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
 
-       <tr>
-       <td valign=top><strong>Categories</strong></td>
-       <td valign=top>
-       <table cellspacing=0>
-       <tr>
-       <th align=left width=25%>Name</th>
-       <th align=left>Score</th>
-       <th align=left>Title</th>
-       </tr>
-         <%= form.fields_for :category_scores do |cs_form|  %>
-         <tr>
-           <%# cs_form.hidden_field :id, cs_form.id %>
-             <td><%= cs_form.object %></td>
-           <td><%= cs_form.object.class %></td>
-           <% cat = cs_form.object.category %>
-           <td valign=top><%= cat.name %></td>
-           <td valign=top><%= cs_form.text_field :score, size: 4 %></td>
-           <td valign=top><%= cat.title %></td>
-         </tr>
-         <% end %>
-       </table>
-       </td>
-       </tr>
+    <tr>
+      <td valign=top><strong>Categories</strong></td>
+      <td valign=top>
+        <table cellspacing=0>
+          <tr>
+            <th align=left width=25%>Name</th>
+            <th align=left>Score</th>
+            <th align=left>Title</th>
+          </tr>
+          <%= form.fields_for :category_scores do |cs_form|  %>
+          <tr>
+            <% cat = cs_form.object.category %>
+            <td valign=top><%= cat.name %></td>
+            <td valign=top><%= cs_form.text_field :score, size: 4 %></td>
+            <td valign=top><%= cat.title %></td>
+          </tr>
+          <% end %>
+        </table>
+      </td>
+    </tr>
 
-       <tr>
-       <td valign=top><strong>Tags</strong></td>
-       <td valign=top>
-       <table>
-       <tr>
-       <th align=left width=25%>Tag</th>
-       <th align=left>Score</th>
-       </tr>
-       <% link.tag_scores.each do |ts| %>
-         <tr>
-           <%= form.fields_for ts do |ts_form|  %>
-             <% tag = ts.tag %>
-             <td valign=top><%= tag.tag %></td>
-             <td valign=top><%= ts_form.text_field :score, size: 4 %></td>
-           <% end %>
-         </tr>
-       <% end %>
-       </table>
-       </td>
+    <tr>
+      <td valign=top><strong>Tags</strong></td>
+      <td valign=top>
+        <table>
+          <tr>
+            <th align=left width=25%>Tag</th>
+            <th align=left>Score</th>
+          </tr>
+          <%= form.fields_for :tag_scores do |ts_form|  %>
+          <tr>
+            <% tag = ts_form.object.tag %>
+            <td valign=top><%= tag.tag %></td>
+            <td valign=top><%= ts_form.text_field :score, size: 4 %></td>
+          </tr>
+          <% end %>
+        </table>
+      </td>
 
-       </tr>
-       </table>
+    </tr>
+</table>
 
-       <hr>
-       <div class="actions">
-         <%= form.submit %>
-       </div>
+<hr>
+<div class="actions">
+  <%= form.submit %>
+</div>
 
-       <br>
-       <br>
-       <b>NOTE:</b> The website preview may not be displayed correctly. <br>
-       This depends on how that site is coded.<br>
-       You can go to <%= link_to(link.link, link.link, target: "external") %> to open in another window or tab.
-       <br>
-       <br>
+<br>
+<br>
+<b>NOTE:</b> The website preview may not be displayed correctly. <br>
+This depends on how that site is coded.<br>
+You can go to <%= link_to(link.link, link.link, target: "external") %> to open in another window or tab.
+<br>
+<br>
 
-       <iframe src='<%= link.link %>' width=90% height=500></iframe>
-     <% end %>
+<iframe src='<%= link.link %>' width=90% height=500></iframe>
+<% end %>

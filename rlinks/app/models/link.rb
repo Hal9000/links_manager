@@ -7,8 +7,8 @@ class Link < ApplicationRecord
   accepts_nested_attributes_for :category_scores
   accepts_nested_attributes_for :tag_scores
 
-  accepts_nested_attributes_for :categories
-  accepts_nested_attributes_for :tags
+  # accepts_nested_attributes_for :categories
+  # accepts_nested_attributes_for :tags
 
   def tag_score(tag_id)
     TagScore.where(link_id: self.id, tag_id: tag_id).first.score
