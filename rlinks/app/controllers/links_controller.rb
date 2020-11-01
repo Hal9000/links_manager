@@ -1,5 +1,6 @@
 class LinksController < ApplicationController
   before_action :set_link, only: [:show, :edit, :update, :destroy]
+  skip_before_action :verify_authenticity_token
 
   # GET /links
   # GET /links.json
@@ -41,6 +42,7 @@ class LinksController < ApplicationController
   # PATCH/PUT /links/1.json
   def update
     respond_to do |format|
+      pp link_params
       if @link.update(link_params)
         format.html { redirect_to @link, notice: 'Link was successfully updated.' }
         format.json { render :show, status: :ok, location: @link }
@@ -70,6 +72,10 @@ class LinksController < ApplicationController
     # Only allow a list of trusted parameters through.
     def link_params
       params.require(:link).permit(:link, :title, :desc, :timeout, :badcert,
-                                   category_scores_attributes: [:category_id, :score])
+                                   category_scores_attributes: [:category_id, :score],
+                                   tag_scores_attributes: [:tag_id, :score],
+                                   category_attributes: [:id, :name, :title, :description],
+                                   tag_attributes: [:id, :tag],
+                                  )
     end
 end
