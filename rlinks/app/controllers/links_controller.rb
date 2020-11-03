@@ -2,6 +2,8 @@ class LinksController < ApplicationController
   before_action :set_link, only: [:show, :edit, :update, :destroy]
   skip_before_action :verify_authenticity_token
 
+  http_basic_authenticate_with :name => "admin", :password => "secret"
+
   # GET /links
   # GET /links.json
   def index

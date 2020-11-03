@@ -1,6 +1,8 @@
 class CategoriesController < ApplicationController
   before_action :set_category, only: [:show, :edit, :update, :destroy]
 
+  http_basic_authenticate_with :name => "admin", :password => "secret"
+
   # GET /categories
   # GET /categories.json
 

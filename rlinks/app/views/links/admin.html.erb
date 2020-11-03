@@ -1,0 +1,51 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Links Manager</h1>
+<h2>Admin interface</h2>
+<hr>
+
+<!-- Each should open in a new tab or window! -->
+
+<br>
+<table width=90% align=center>
+<tr>
+<td valign=top>
+<h3>Links</h3>
+
+<%= link_to 'Index', "/admin/links", target: "_blank" %><br>
+<%= link_to 'Main (public) page', "/", target: "_blank" %><br>
+<%= link_to 'New link', new_link_path, target: "_blank"  %><br>
+<%= link_to 'Search', "/admin/search", target: "_blank"  %><br>
+<%= link_to 'Show by ID', "/not_sure", target: "_blank"  %><br>
+<%= link_to 'Edit by ID', "/not_sure", target: "_blank"  %><br>
+<br>
+<%= link_to 'Update incomplete entries', "/incomplete", target: "_blank"  %><br>
+</td>
+
+<td valign=top>
+<h3>Categories</h3>
+<%= link_to 'Index', "/admin/categories", target: "_blank"  %><br>
+<%= link_to "New category", "/admin/categories/new", target: "_blank"  %><br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<%= link_to 'Links for category', "/not_sure", target: "_blank"  %><br>
+</td>
+
+<td valign=top>
+<h3>Tags</h3>
+<%= link_to 'Index', "/admin/tags", target: "_blank"  %><br>
+<%= link_to 'New tag', "/admin/tags/new", target: "_blank"  %><br>
+<%= link_to 'Tag cloud', "/tag_cloud", target: "_blank"  %><br>
+<br>
+<br>
+<br>
+<br>
+<%= link_to 'Links for tag', "not_sure", target: "_blank"  %><br>
+</td>
+
+</tr>
+</table>
+
