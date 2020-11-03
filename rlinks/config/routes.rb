@@ -13,4 +13,7 @@ Rails.application.routes.draw do
   get '/admin/categories', to: 'categories#index'
   get '/admin/tags',       to: 'tags#index'
 
+  get '/admin/categories/new', to: 'categories#new'
+  get '/admin/tags/new',       to: 'tags#new'
+
 end
