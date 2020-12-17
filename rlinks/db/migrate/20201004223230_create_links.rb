@@ -3,7 +3,7 @@ class CreateLinks < ActiveRecord::Migration[6.0]
     create_table :links do |t|
       t.string :link
       t.string :title
-      t.string :desc
+      t.text :desc
       t.boolean :timeout
       t.boolean :badcert
 

@@ -12,7 +12,7 @@
 
 ActiveRecord::Schema.define(version: 2020_10_04_223244) do
 
-  create_table "categories", force: :cascade do |t|
+  create_table "categories", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci", force: :cascade do |t|
     t.string "name"
     t.string "title"
     t.string "desc"
@@ -20,7 +20,7 @@ ActiveRecord::Schema.define(version: 2020_10_04_223244) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
-  create_table "category_scores", force: :cascade do |t|
+  create_table "category_scores", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci", force: :cascade do |t|
     t.integer "category_id"
     t.integer "link_id"
     t.integer "score"
@@ -28,17 +28,17 @@ ActiveRecord::Schema.define(version: 2020_10_04_223244) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
-  create_table "links", force: :cascade do |t|
+  create_table "links", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci", force: :cascade do |t|
     t.string "link"
     t.string "title"
-    t.string "desc"
+    t.text "desc"
     t.boolean "timeout"
     t.boolean "badcert"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
 
-  create_table "tag_scores", force: :cascade do |t|
+  create_table "tag_scores", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci", force: :cascade do |t|
     t.integer "tag_id"
     t.integer "link_id"
     t.integer "score"
@@ -46,7 +46,7 @@ ActiveRecord::Schema.define(version: 2020_10_04_223244) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
-  create_table "tags", force: :cascade do |t|
+  create_table "tags", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci", force: :cascade do |t|
     t.string "tag"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
