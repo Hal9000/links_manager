@@ -7,7 +7,7 @@ class LinksController < ApplicationController
   # GET /links
   # GET /links.json
   def index
-    @links = Link.all
+    @links = Link.includes(:categories, :tags).all
   end
 
   # GET /links/1
