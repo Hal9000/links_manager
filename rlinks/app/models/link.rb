@@ -17,5 +17,10 @@ class Link < ApplicationRecord
   def category_score(category_id)
     CategoryScore.where(link_id: self.id, category_id: category_id).first.score
   end
+
+  def missing_data
+    # How to add in rows with no categories or tags?
+    Link.where(title: /NEEDS TITLE/, desc: /NEEDS DESC/)
+  end
   
 end

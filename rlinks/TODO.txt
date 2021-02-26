@@ -1,0 +1,8 @@
+  1. How to use git correctly now we're in production?
+  2. How to add an arbitrary sort key to categories (for front page)?
+  3. Search feature for links (domains)
+x 5. Still doesn't serve the banner image
+  6. How to update categories/tags for links?
+  7. How to go into an "update loop" for links with missing data?
+  8. Admin page missing stuff
+  9. Tags view...

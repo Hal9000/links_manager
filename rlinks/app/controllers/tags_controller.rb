@@ -1,7 +1,8 @@
 class TagsController < ApplicationController
   before_action :set_tag, only: [:show, :edit, :update, :destroy]
 
-  http_basic_authenticate_with :name => "admin", :password => "secret"
+  before_action :authenticate, only: [:create, :edit, :update, :destroy]
+  #http_basic_authenticate_with :name => "admin", :password => "secret"
 
   # GET /tags
   # GET /tags.json
